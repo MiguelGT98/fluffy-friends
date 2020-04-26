@@ -1,0 +1,58 @@
+@import "./variables";
+@import "./mixins";
+
+body {
+  overflow-x: hidden;
+}
+
+.contacto {
+    min-height: 100vh;
+    padding: 30px 20px;
+    max-width: unset;
+  
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+  
+    img {
+      max-width: 100%;
+      object-fit: cover;
+      box-sizing: border-box;
+      box-shadow: 1px 2px 5px $shadow-300;
+      border-radius: 10px;
+    }
+  }
+  
+  @include desktop {
+    .contacto {
+      padding: 2rem 6rem;
+  
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+  
+  @include tablet {
+    .contacto {
+      img {
+        min-width: $tablet-width;
+      }
+    }
+  }
+  
+  @include cellphone {
+    .contacto {
+      .col {
+        flex-basis: unset;
+      }
+  
+      img {
+        width: 100%;
+      }
+    }
+  }

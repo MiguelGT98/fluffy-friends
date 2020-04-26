@@ -1,1 +1,31 @@
-<p>registro works!</p>
+<!--p>registro works!</p-->
+<div class="container mt-4 m0-auto p-3">
+    <form>
+      <h1 style="text-align: center;">Registro</h1>
+      <div class="form-group">
+        <label for="username"><b>Nombre de usuario</b></label>
+        <input class="form-control" type="text" placeholder="Ingresa nombre de usuario" name="username" required
+          id="username" />
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Correo electrónico</b></label>
+        <input class="form-control" type="email" placeholder="Ingesa e-mail" name="email" required id="email" />
+      </div>
+      <div class="form-group">
+        <label for="password"><b>Contraseña</b></label>
+        <input class="form-control" type="password" placeholder="Ingresa contraseña" name="password" required
+          id="password" />
+      </div>
+      <div class="form-group">
+        <label for="passwordConfirmation"><b>Repite contraseña</b></label>
+        <input class="form-control" type="password" placeholder="Confirma contraseña" name="passwordConfirmation"
+          required id="passwordConfirmation" />
+      </div>
+      <button class="btn btn-primary mb-2 w-100 m-0" type="submit" onclick="window.location.href='../app/index.html'">
+        Registrarse
+      </button>
+      <button class="btn btn-link mb-2 w-100 m-0" type="submit" onclick="window.location.href='../login/index.html'">
+        Inicia sesión
+      </button>
+    </form>
+  </div>
