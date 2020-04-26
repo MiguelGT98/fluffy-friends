@@ -1,0 +1,58 @@
+@import "./variables";
+@import "./mixins";
+
+body {
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  min-height: 600px;
+  border-radius: 0;
+  background-color: #207379 !important;
+
+  .lead {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
+
+  img {
+    object-fit: cover;
+    height: 400px;
+    max-width: 300px;
+    position: absolute;
+    bottom: 48px;
+    right: 48px;
+    box-shadow: 1px 2px 5px $shadow-300;
+    border-radius: 10px;
+  }
+
+  margin-bottom: calc(100vh - 672px);
+}
+
+@include cellphone {
+  .jumbotron {
+    h1 {
+      font-size: 4rem;
+    }
+
+    .lead {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+    }
+
+    img {
+      object-fit: cover;
+      height: 250px;
+      max-width: 250px;
+      position: absolute;
+      bottom: 48px;
+      right: 48px;
+      box-shadow: 1px 2px 5px $shadow-300;
+      border-radius: 10px;
+    }
+  }
+}
