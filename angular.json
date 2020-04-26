@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fluffy-friends"
+    }
+  },
+  "defaultProject": "fluffy-friends",
+  "cli": {
+    "analytics": false
+  }
 }

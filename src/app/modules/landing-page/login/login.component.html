@@ -1,0 +1,32 @@
+<!--p>login works!</p-->
+
+
+<div class="container mt-4 m0-auto p-3">
+    <form>
+      <h1 style="text-align: center;">Iniciar sesión</h1>
+      <div class="form-group">
+        <label for="uname"><b>Correo electrónico</b></label>
+        <input class="form-control" type="email" placeholder="Correo electrónico" name="uname" required id="uname" />
+      </div>
+      <div class="form-group">
+        <label for="password"><b>Contraseña</b></label>
+        <input class="form-control" type="password" placeholder="Ingresa contraseña" name="password" required
+          id="password" />
+      </div>
+      <button class="btn btn-primary mb-2 w-100 m-0" type="submit" onclick="window.location.href='../app/index.html'">
+        Iniciar sesión
+      </button>
+      <button class="btn btn-link mb-2 w-100 m-0" type="submit" onclick="window.location.href='../registro/index.html'">
+        Regístrate
+      </button>
+      <p>
+        <label class="m-0 w-100">
+          <input type="checkbox" checked="checked" name="remember" />
+          Recuérdame
+        </label>
+      </p>
+      <p>
+        <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
+      </p>
+    </form>
+  </div>

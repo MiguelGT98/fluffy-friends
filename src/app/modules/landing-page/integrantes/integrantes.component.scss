@@ -1,0 +1,42 @@
+@import "./variables";
+
+body {
+    overflow-x: hidden;
+  }
+
+.integrantes {
+  min-height: 100vh;
+  
+  h1 {
+    font-weight: 700;
+  }
+
+  .row{
+      align-items: center;
+  }
+
+  .card {
+    min-width: 200px;
+    margin-bottom: 2rem;
+    box-shadow: 2px 4px 5px $shadow-400;
+
+    .card-title {
+      font-size: 0.825rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      line-height: 1.2;
+      color: $gray-900;
+    }
+
+    .card-text {
+      font-size: 0.825rem;
+      font-weight: 300;
+      color: $gray-700;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
