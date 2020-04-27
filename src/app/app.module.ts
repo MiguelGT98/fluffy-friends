@@ -6,6 +6,7 @@ import { NavbarComponent } from './common/navbar/navbar.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './modules/landing-page/home/home.component';
 import { DogCardComponent } from './common/dog-card/dog-card.component';
+import { RibbonComponent } from './common/ribbon/ribbon.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DogCardComponent } from './common/dog-card/dog-card.component';
     FooterComponent,
     HomeComponent,
     DogCardComponent,
+    RibbonComponent,
   ],
   imports: [BrowserModule],
   providers: [],

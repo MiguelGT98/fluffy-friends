@@ -1,0 +1,35 @@
+@import "../../../styles/variables";
+
+.ribbon {
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  top: 30px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: $white;
+
+  &.left {
+    left: -30px;
+    transform: rotate(-45deg);
+  }
+
+  &.right {
+    right: -30px;
+    transform: rotate(45deg);
+  }
+
+  &.red {
+    background-color: $red;
+  }
+
+  &.green {
+    background-color: $green;
+  }
+}
