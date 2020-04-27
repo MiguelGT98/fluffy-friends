@@ -1,0 +1,86 @@
+@import "../../../styles/variables";
+
+.card {
+  max-width: 335px;
+  border: none;
+
+  .card-img-top {
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+    box-shadow: 2px 4px 5px $shadow-400;
+    border-radius: 10px;
+    margin-bottom: -20px;
+    z-index: 1;
+  }
+
+  .card-body {
+    background: $white;
+    border: 0.5px solid $gray-200;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 5px $shadow-300;
+    border-radius: 10px;
+    padding: 40px 0px 0px 0px;
+
+    .card-text,
+    .card-title {
+      padding: 0px 30px;
+    }
+
+    .card-text {
+      .badge {
+        margin-right: 5px;
+      }
+    }
+
+    .card-buttons {
+      box-sizing: border-box;
+      border-top: 2px solid $gray-200;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px 40px;
+
+      button {
+        border-radius: 100px;
+        width: 60px;
+        height: 60px;
+        border: 0;
+
+        svg {
+          width: 28px;
+          height: 28px;
+        }
+
+        &.dislike {
+          background-color: $red;
+
+          svg path {
+            fill: $gray-100;
+          }
+        }
+
+        &.like {
+          height: 80px;
+          width: 80px;
+          background-color: $green;
+
+          svg path {
+            fill: $gray-100;
+          }
+        }
+
+        &.info {
+          background-color: $gray-500;
+
+          svg path {
+            fill: $gray-100;
+          }
+        }
+      }
+    }
+  }
+}
