@@ -1,12 +1,10 @@
-
-
-@import "./variables";
+@import "../../../../styles/variables";
 
 body {
   overflow-x: hidden;
 }
 
-.container{
-    min-height: 100vh;
-    background-color: transparent !important;
+.container {
+  min-height: 100vh;
+  background-color: transparent !important;
 }

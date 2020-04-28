@@ -1,18 +1,18 @@
-@import "./variables";
+@import "../../../../styles/variables";
 
 body {
-    overflow-x: hidden;
-  }
+  overflow-x: hidden;
+}
 
 .integrantes {
   min-height: 100vh;
-  
+
   h1 {
     font-weight: 700;
   }
 
-  .row{
-      align-items: center;
+  .row {
+    align-items: center;
   }
 
   .card {
