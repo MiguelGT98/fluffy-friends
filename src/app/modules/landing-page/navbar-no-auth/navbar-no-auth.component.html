@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-  <a class="navbar-brand" [routerLink]="['/app']">
+  <a class="navbar-brand" [routerLink]="['/']">
     🐕 Fluffy Friends
   </a>
   <button
@@ -15,33 +15,27 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/app']" routerLinkActive="active"
-          >Home
-        </a>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/']" routerLinkActive="active"
+          >Home <span class="sr-only"></span
+        ></a>
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link"
-          [routerLink]="['/friends']"
-          routerLinkActive="active"
-          >Mis friends</a
+        <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active"
+          >About</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/team']" routerLinkActive="active"
+          >Integrantes</a
         >
       </li>
       <li class="nav-item">
         <a
           class="nav-link"
-          [routerLink]="['/friends/new']"
+          [routerLink]="['/contact']"
           routerLinkActive="active"
-          >Nuevo friend</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          [routerLink]="['/profile']"
-          routerLinkActive="active"
-          >Mi perfil</a
+          >Contacto</a
         >
       </li>
     </ul>

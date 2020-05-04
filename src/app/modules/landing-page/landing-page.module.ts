@@ -5,13 +5,20 @@ import { IntegrantesComponent } from './integrantes/integrantes.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
-
-
+import { LandingPageRoutingModule } from './landing-page-routing.module';
+import { LandingPageComponent } from './landing-page.component';
+import { NavbarNoAuthComponent } from './navbar-no-auth/navbar-no-auth.component';
 
 @NgModule({
-  declarations: [AboutComponent, IntegrantesComponent, ContactoComponent, LoginComponent, RegistroComponent],
-  imports: [
-    CommonModule
-  ]
+  declarations: [
+    AboutComponent,
+    IntegrantesComponent,
+    ContactoComponent,
+    LoginComponent,
+    RegistroComponent,
+    LandingPageComponent,
+    NavbarNoAuthComponent,
+  ],
+  imports: [CommonModule, LandingPageRoutingModule],
 })
-export class LandingPageModule { }
+export class LandingPageModule {}
