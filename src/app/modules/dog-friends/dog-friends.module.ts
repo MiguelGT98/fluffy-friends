@@ -24,4 +24,4 @@ import { FriendsLocalStorageService } from './services/friends-local-storage.ser
   ],
   providers: [FriendsLocalStorageService],
 })
-export class DogFriendsModule {}
+export class DogFriendsModule { }

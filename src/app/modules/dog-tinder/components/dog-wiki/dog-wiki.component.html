@@ -15,4 +15,11 @@
     mid-19th century.
   </p>
   <a href="https://en.wikipedia.org/wiki/Golden_Retriever">Learn more</a>
+  <div>
+    <div style="chart-container">
+      <canvas id="chart" baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
+        [legend]="barChartLegend" [chartType]="barChartType">
+      </canvas>
+    </div>
+  </div>
 </div>

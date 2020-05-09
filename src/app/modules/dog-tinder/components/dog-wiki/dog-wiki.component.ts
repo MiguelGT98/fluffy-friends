@@ -6,6 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dog-wiki.component.scss']
 })
 export class DogWikiComponent implements OnInit {
+  public barChartOptions = {
+    responsive: true
+  };
+
+  public barChartLabels = ['Energía', 'Educación', 'Niños', 'Travieso'];
+  public barChartType = 'bar';
+  public barChartLegend = true;
+
+  public barChartData = [
+    { data: [100, 75, 80, 19], label: 'Puntación' }
+  ];
 
   constructor() { }
 
