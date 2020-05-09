@@ -1,11 +1,13 @@
 <div class="card">
   <img
     class="card-img-top"
-    src="https://www.guidingeyes.org/wp-content/uploads/2020/01/1-1.jpg"
+    src="{{
+      url || 'https://www.guidingeyes.org/wp-content/uploads/2020/01/1-1.jpg'
+    }}"
     alt="Card image cap"
   />
   <div class="card-body">
-    <h5 class="card-title">Benito</h5>
+    <h5 class="card-title">{{ name || "Benito" }}</h5>
     <p class="card-text">
       <span class="badge badge-pill text-info border border-info">Amable</span>
       <span class="badge badge-pill text-dark border border-dark"
