@@ -10,9 +10,11 @@ import { StorageServiceModule } from 'ngx-webstorage-service';
 
 import { ChartsModule } from 'ng2-charts';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [AppComponent, FooterComponent, HomeComponent],
-  imports: [BrowserModule, AppRoutingModule, StorageServiceModule, ChartsModule],
+  imports: [BrowserModule, AppRoutingModule, StorageServiceModule, ChartsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [],
