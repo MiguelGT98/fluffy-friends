@@ -6,6 +6,8 @@ import { EditFriendComponent } from './components/edit-friend/edit-friend.compon
 import { CommonComponentsModule } from '../common-components/common-components.module';
 import { DogFriendsRoutingModule } from './dog-friends-routing.module';
 import { DogFriendsWrapperComponent } from './dog-friends-wrapper/dog-friends-wrapper.component';
+import { StorageServiceModule } from 'ngx-webstorage-service';
+import { FriendsLocalStorageService } from './services/friends-local-storage.service';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,12 @@ import { DogFriendsWrapperComponent } from './dog-friends-wrapper/dog-friends-wr
     EditFriendComponent,
     DogFriendsWrapperComponent,
   ],
-  imports: [CommonModule, CommonComponentsModule, DogFriendsRoutingModule],
+  imports: [
+    CommonModule,
+    CommonComponentsModule,
+    DogFriendsRoutingModule,
+    StorageServiceModule,
+  ],
+  providers: [FriendsLocalStorageService],
 })
 export class DogFriendsModule {}

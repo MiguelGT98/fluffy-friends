@@ -7,26 +7,16 @@
         <th scope="col">Matches</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody *ngFor="let friend of friends">
       <tr>
         <td>
-          <img
-            src="https://i.pinimg.com/564x/c0/32/48/c0324886265f810ae3c8ff9296a7fe76.jpg"
-            alt="Shiba chido"
-          />Mark
+          <img src="{{ friend.image.url }}" alt="{{ friend.image.alt }}" /><a
+            routerLink="edit/{{ friend.id }}"
+            >{{ friend.name }}</a
+          >
         </td>
-        <td>Ottawa, Canadá</td>
-        <td>4</td>
-      </tr>
-      <tr>
-        <td>
-          <img
-            src="https://www.guidingeyes.org/wp-content/uploads/2020/01/1-1.jpg"
-            alt="Benito y camelitas"
-          /><a [routerLink]="['/friends/edit/2']">Benito</a>
-        </td>
-        <td>CDMX, México</td>
-        <td>2</td>
+        <td>{{ friend.location }}</td>
+        <td>{{ friend.matches }}</td>
       </tr>
     </tbody>
   </table>

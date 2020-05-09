@@ -6,10 +6,11 @@ import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './modules/landing-page/home/home.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { StorageServiceModule } from 'ngx-webstorage-service';
 
 @NgModule({
   declarations: [AppComponent, FooterComponent, HomeComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, StorageServiceModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [],
