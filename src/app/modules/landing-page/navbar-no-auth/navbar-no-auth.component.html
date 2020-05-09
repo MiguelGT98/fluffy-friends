@@ -16,17 +16,29 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/']" routerLinkActive="active"
+        <a
+          class="nav-link"
+          [routerLink]="['/']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
           >Home <span class="sr-only"></span
         ></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active"
+        <a
+          class="nav-link"
+          [routerLink]="['/about']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
           >About</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/team']" routerLinkActive="active"
+        <a
+          class="nav-link"
+          [routerLink]="['/team']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
           >Integrantes</a
         >
       </li>
@@ -35,6 +47,7 @@
           class="nav-link"
           [routerLink]="['/contact']"
           routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
           >Contacto</a
         >
       </li>
