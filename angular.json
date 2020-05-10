@@ -35,6 +35,21 @@
             ]
           },
           "configurations": {
+            "es":{
+              "aot":true,
+              "i18nFile": "src/locale/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error"
+            },
+            "en":{
+              "aot":true,
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
+
             "production": {
               "fileReplacements": [
                 {
@@ -73,7 +88,13 @@
           "configurations": {
             "production": {
               "browserTarget": "fluffy-friends:build:production"
-            }
+            },
+            "es":{
+                "browserTarget": "fluffy-friends:build:es"
+            },
+            "en":{
+              "browserTarget": "fluffy-friends:build:en"
+          }
           }
         },
         "extract-i18n": {
