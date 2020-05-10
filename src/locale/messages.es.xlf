@@ -228,12 +228,12 @@
     la tercera raza familiar más popular —mediante registro— en los Estados Unidos,​el quinto más popular en Australia,y
     la octava raza más popular en el Reino Unido.
   </source>
-  <target>The golden retriever or golden retriever is a breed of dog that developed in the United Kingdom, more specifically in
-    Scotland, around 1850. With its characteristics of a retriever, bloodhound, bloodhound and water spaniel, it is a
-    Skillful hunting dog with tracking skills. He has a friendly disposition and an attitude that has made him
-    in
-    the third most popular family breed - by registration - in the United States, the fifth most popular in Australia, and
-    the eighth most popular breed in the UK.</target>
+  <target>El golden retriever o cobrador dorado es una raza de perro que se desarrolló en el Reino Unido, más concretamente en
+    Escocia, alrededor de 1850. Con sus características de perro cobrador, sabueso, bloodhound y spaniel de agua, es un
+    hábil perro de caza con aptitudes para el rastreo. Posee una disposición amigable y una actitud que lo ha convertido
+    en
+    la tercera raza familiar más popular —mediante registro— en los Estados Unidos,​el quinto más popular en Australia,y
+    la octava raza más popular en el Reino Unido.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">3</context>

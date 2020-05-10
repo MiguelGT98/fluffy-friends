@@ -2,9 +2,9 @@
 
 <div class="container mt-4 m0-auto p-3">
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
-    <h1 style="text-align: center;">Iniciar sesión</h1>
+    <h1 style="text-align: center;" i18n>Iniciar sesión</h1>
     <div class="form-group">
-      <label for="uname"><b>Correo electrónico</b></label>
+      <label for="uname" i18n><b>Correo electrónico</b></label>
       <input
         class="form-control"
         type="email"
@@ -16,7 +16,7 @@
       />
     </div>
     <div class="form-group">
-      <label for="password"><b>Contraseña</b></label>
+      <label for="password" i18n><b>Contraseña</b></label>
       <input
         class="form-control"
         type="password"
@@ -31,20 +31,20 @@
       type="submit"
       class="btn btn-primary mb-2 w-100 m-0"
       [routerLink]="['/app']"
-    >
+    i18n>
       Iniciar sesión
     </button>
-    <a class="btn btn-link mb-2 w-100 m-0" [routerLink]="['/register']">
+    <a class="btn btn-link mb-2 w-100 m-0" [routerLink]="['/register']" i18n>
       Regístrate
     </a>
     <p>
-      <label class="m-0 w-100">
+      <label class="m-0 w-100" i18n>
         <input type="checkbox" checked="checked" name="remember" />
         Recuérdame
       </label>
     </p>
     <p>
-      <span class="psw">¿Olvidaste tu <a href="#">contraseña?</a></span>
+      <span class="psw" i18n>¿Olvidaste tu <a href="#">contraseña?</a></span>
     </p>
   </form>
 </div>
