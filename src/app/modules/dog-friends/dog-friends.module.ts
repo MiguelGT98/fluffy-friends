@@ -8,6 +8,7 @@ import { DogFriendsRoutingModule } from './dog-friends-routing.module';
 import { DogFriendsWrapperComponent } from './dog-friends-wrapper/dog-friends-wrapper.component';
 import { StorageServiceModule } from 'ngx-webstorage-service';
 import { FriendsLocalStorageService } from './services/friends-local-storage.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { FriendsLocalStorageService } from './services/friends-local-storage.ser
     CommonComponentsModule,
     DogFriendsRoutingModule,
     StorageServiceModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [FriendsLocalStorageService],
 })
-export class DogFriendsModule { }
+export class DogFriendsModule {}

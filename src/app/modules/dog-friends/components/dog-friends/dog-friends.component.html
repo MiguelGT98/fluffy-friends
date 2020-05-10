@@ -10,7 +10,7 @@
     <tbody *ngFor="let friend of friends">
       <tr>
         <td>
-          <img src="{{ friend.image.url }}" alt="{{ friend.image.alt }}" /><a
+          <img src="{{ friend.url }}" alt="{{ friend.alt }}" /><a
             routerLink="edit/{{ friend.id }}"
             >{{ friend.name }}</a
           >

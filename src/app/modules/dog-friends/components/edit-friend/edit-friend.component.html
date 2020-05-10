@@ -1,9 +1,6 @@
 <div class="friend-wrapper">
-  <app-dog-card
-    name="{{ friend.name }}"
-    url="{{ friend.image.url }}"
-  ></app-dog-card>
-  <form>
+  <app-dog-card name="{{ friend.name }}" url="{{ friend.url }}"></app-dog-card>
+  <form [formGroup]="friendForm" (ngSubmit)="onSubmit(friendForm.value)">
     <div class="form-group">
       <label for="name">Nombre</label>
       <input
@@ -13,11 +10,17 @@
         name="name"
         placeholder="Ingresa nombre"
         value="{{ friend.name }}"
+        formControlName="name"
       />
     </div>
     <div class="form-group">
       <label for="name">Características</label>
-      <select class="form-control" id="characteristics" name="characteristics">
+      <select
+        class="form-control"
+        id="characteristics"
+        name="characteristics"
+        formControlName="characteristics"
+      >
         <option>Docil</option>
         <option>Juguetón</option>
         <option>Amable</option>
@@ -36,14 +39,16 @@
         class="form-control"
         id="description"
         name="description"
+        formControlName="description"
         rows="4"
+        value="{{ friend.description }}"
       ></textarea>
     </div>
     <button type="submit" class="btn btn-primary mb-2">
       Actualizar datos
     </button>
-    <button type="submit" class="btn btn-link mb-2">
+    <a class="btn btn-link mb-2">
       Cancelar
-    </button>
+    </a>
   </form>
 </div>

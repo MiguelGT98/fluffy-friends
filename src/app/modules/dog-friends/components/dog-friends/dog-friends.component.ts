@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FriendsLocalStorageService } from '../../services/friends-local-storage.service';
+import { Friend } from '../../models/friend';
+import { FriendsService } from '../../services/friends.service';
 
 @Component({
   selector: 'app-dog-friends',
@@ -7,23 +8,14 @@ import { FriendsLocalStorageService } from '../../services/friends-local-storage
   styleUrls: ['./dog-friends.component.scss'],
 })
 export class DogFriendsComponent implements OnInit {
-  friends = [];
-  constructor(private friendsLocalStorageService: FriendsLocalStorageService) {}
+  friends: Array<Friend> = [];
+  constructor(public friendsService: FriendsService) {}
 
   ngOnInit(): void {
     this.getFriends();
   }
 
   getFriends() {
-    const friendsInLocalStorage = this.friendsLocalStorageService.getFriends();
-    const newFriends = [];
-    for (let key in friendsInLocalStorage) {
-      newFriends.push({
-        id: key,
-        ...friendsInLocalStorage[key],
-      });
-    }
-
-    this.friends = newFriends;
+    this.friends = this.friendsService.getFriends();
   }
 }

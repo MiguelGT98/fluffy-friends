@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FriendsLocalStorageService } from '../../services/friends-local-storage.service';
 import { ActivatedRoute } from '@angular/router';
+import { Friend } from '../../models/friend';
+import { FriendsService } from '../../services/friends.service';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-edit-friend',
@@ -9,25 +12,39 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class EditFriendComponent implements OnInit {
   id = '';
-  friend: any;
+  friend: Friend;
+  friendForm;
 
   constructor(
-    private friendsLocalStorageService: FriendsLocalStorageService,
+    private formBuilder: FormBuilder,
+    private friendService: FriendsService,
     private route: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
       this.id = params['id'];
-      this.getFriend(this.id);
+      this.friend = this.friendService.getFriend(this.id);
+    });
+
+    console.log(this.friend);
+
+    this.friendForm = this.formBuilder.group({
+      id: this.friend.id,
+      name: this.friend.name,
+      url: this.friend.url,
+      alt: '',
+      characteristics: this.friend.characteristics,
+      description: this.friend.description,
+      location: this.friend.location,
+      matches: this.friend.matches,
     });
   }
 
-  getFriend(id: string) {
-    this.friend = this.friendsLocalStorageService.getFriend(id);
-  }
+  onSubmit(friend) {
+    this.friendService.updateFriend(friend);
+    this.friendForm.reset();
 
-  updateFriend(friend: any, id: string) {
-    this.friendsLocalStorageService.updateFriend(friend, id);
+    console.log('Your friend has been updated', friend);
   }
 }

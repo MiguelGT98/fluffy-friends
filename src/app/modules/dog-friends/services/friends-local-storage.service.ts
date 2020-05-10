@@ -21,17 +21,35 @@ export class FriendsLocalStorageService {
     return friend;
   }
 
-  public addFriend(friend: object, id: string): void {
+  public addFriend(friend: any): void {
+    console.log(friend);
+
     const friendsInStorage = this.storage.get('friends') || {};
-    friendsInStorage[id] = friend;
+    const id = this.generateID();
+    friendsInStorage[id] = {
+      ...friend,
+      id,
+      characteristics: [friend.characteristics],
+    };
 
     this.storage.set('friends', friendsInStorage);
   }
 
-  public updateFriend(friend: object, id: string): void {
+  public updateFriend(friend: any): void {
+    console.log(friend);
     const friendsInStorage = this.storage.get('friends') || {};
-    friendsInStorage[id] = friend;
+    friendsInStorage[friend.id] = {
+      ...friend,
+      characteristics: [friend.characteristics],
+    };
 
     this.storage.set('friends', friendsInStorage);
+  }
+
+  public generateID() {
+    // Math.random should be unique because of its seeding algorithm.
+    // Convert it to base 36 (numbers + letters), and grab the first 9 characters
+    // after the decimal.
+    return '_' + Math.random().toString(36).substr(2, 9);
   }
 }
