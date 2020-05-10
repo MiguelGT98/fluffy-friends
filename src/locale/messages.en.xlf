@@ -14,6 +14,15 @@
       publishing software like Aldus PageMaker including versions of Lorem
       Ipsum.
     </source>
+    <target>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry&apos;s standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/home/home.component.html</context>
           <context context-type="linenumber">4</context>
@@ -21,6 +30,7 @@
       </trans-unit>
       <trans-unit id="656864832cc2c37106aaa75d9fe345bd879508c5" datatype="html">
         <source>Iniciar Sesión</source>
+        <target>Log in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/home/home.component.html</context>
           <context context-type="linenumber">19</context>
@@ -30,6 +40,8 @@
         <source>
       Somos un grupo de estudiantes del Tec de Monterrey que desea poder encontrarles un hogar digno a los perros que
       se encuentran en estado de adopción. </source>
+      <target>We are a group of Tec de Monterrey students who want to be able to find a decent home for the dogs that
+      they are in a state of adoption.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
           <context context-type="linenumber">6</context>
@@ -38,6 +50,8 @@
       <trans-unit id="2d066d4a31492f77034c03f21186bf2f6a1fbdbf" datatype="html">
         <source>Con ayuda de nuestros Cuidadoges (personas quienes dan en adopción), nuestros
       Adogtadores (personas que adoptan) y de esta plataforma, queremos lograr esto, uniendo perros con personas.</source>
+      <target>With the help of our caregivers (people who give up for adoption), our
+      Adoptors (people who adopt) and from this platform, we want to achieve this, uniting dogs with people.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
           <context context-type="linenumber">9</context>
@@ -45,6 +59,7 @@
       </trans-unit>
       <trans-unit id="19024e1e92f946c75bdc607659f336747ec86087" datatype="html">
         <source>Queremos que esta plataforma ayude a encontrar al perro ideal para cada futuro dueño.</source>
+        <target>We want this platform to help find the ideal dog for each future owner.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
           <context context-type="linenumber">12</context>
@@ -52,6 +67,7 @@
       </trans-unit>
       <trans-unit id="b4daf4e072777dfdaee5d8985aa77891b73e3a83" datatype="html">
         <source>Conoce al equipo</source>
+        <target>Meet the team</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
           <context context-type="linenumber">3</context>
@@ -63,6 +79,9 @@
               aplicaciones móviles y web y disfruto aprender sobre nuevas
               cosas involucradas con el desarrollo de software en general.
             </source>
+            <target>I am Alejandro. I am very interested in the development of
+              mobile and web apps and I enjoy learning about new
+              things involved with software development in general.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
           <context context-type="linenumber">10</context>
@@ -74,6 +93,9 @@
               Tec de Monterrey CCM. Mi pasión es el desarrollo web y las
               películas de terror.
             </source>
+            <target>I'm Miguel, 8th semester student of the ITC degree at
+              Tec de Monterrey CCM. My passion is web development and
+              horror movies.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
           <context context-type="linenumber">23</context>
@@ -84,6 +106,8 @@
               Soy estudiante del Tec de Monterrey, cursando 8vo semestre de la
               carrera ITC (Ingeniería en Tecnologías Computacionales)
             </source>
+            <target>I am a student of the Tec de Monterrey, studying 8th semester of the
+              ITC (Computer Technology Engineering)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
           <context context-type="linenumber">36</context>
@@ -94,6 +118,8 @@
               Estudiante de último semestre de la carrera ITC, apasionado por
               la seguridad informática. Amante de los perros y los corgis.
             </source>
+            <target>Last semester of ITC degree, passionate about
+              computer security. Dog and corgis lover</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
           <context context-type="linenumber">48</context>
@@ -101,6 +127,7 @@
       </trans-unit>
       <trans-unit id="67b6f112d0a57e165cc4006d894025e571fb6604" datatype="html">
         <source>Ayúdanos a ayudarlos</source>
+        <target>Help us to help them</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/contacto/contacto.component.html</context>
           <context context-type="linenumber">5</context>
@@ -108,6 +135,7 @@
       </trans-unit>
       <trans-unit id="178aa14d8ee687d41b9be03758b6983fcf628e4e" datatype="html">
         <source>Iniciar sesión</source>
+        <target>Log in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">5</context>
@@ -115,6 +143,9 @@
       </trans-unit>
       <trans-unit id="ce3d165ac9d2a8c6d3208c107c4178e026126692" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Correo electrónico<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target>
+        <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>E-mail<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">7</context>
@@ -126,6 +157,9 @@
       </trans-unit>
       <trans-unit id="95d74b8ef9033e033f9f28ed0c6a650d3e002005" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Contraseña<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target>
+        <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Password<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">19</context>
@@ -139,6 +173,7 @@
         <source>
       Iniciar sesión
     </source>
+    <target>Log in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">34</context>
@@ -148,6 +183,7 @@
         <source>
       Regístrate
     </source>
+    <target>Register</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">37</context>
@@ -158,6 +194,10 @@
         <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
         Recuérdame
       </source>
+      <target>
+      <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        Remember me
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">41</context>
@@ -165,6 +205,7 @@
       </trans-unit>
       <trans-unit id="0b40cdaf5f87dfb79779df051a62583daf6df0a2" datatype="html">
         <source>¿Olvidaste tu <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>contraseña?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Did you forget your <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>password?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">47</context>
@@ -172,6 +213,7 @@
       </trans-unit>
       <trans-unit id="cf04f7c4d68523426a322308a940acf7a2d09b29" datatype="html">
         <source>Registro</source>
+        <target>Register</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
           <context context-type="linenumber">3</context>
@@ -179,6 +221,8 @@
       </trans-unit>
       <trans-unit id="6f724355d6e76176807062ed0d656bdad7093610" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Nombre de usuario<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+       <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Username<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
           <context context-type="linenumber">5</context>
@@ -186,6 +230,10 @@
       </trans-unit>
       <trans-unit id="7b30461ae40ae036aed53146a462b3e1c074ab2e" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Repite contraseña<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <target>
+          <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Repeat password<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+        </target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
           <context context-type="linenumber">38</context>
@@ -195,6 +243,7 @@
         <source>
       Registrarse
     </source>
+    <target>Register</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
           <context context-type="linenumber">52</context>
@@ -204,6 +253,7 @@
         <source>
       Inicia sesión
     </source>
+    <target>Log in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
           <context context-type="linenumber">55</context>
@@ -211,6 +261,7 @@
       </trans-unit>
       <trans-unit id="ebca47e578ca0ca71c4700953e44866c97691220" datatype="html">
         <source>Inicio <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Home <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
           <context context-type="linenumber">25</context>
@@ -218,6 +269,8 @@
       </trans-unit>
       <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
         <source>Sobre nosotros</source>
+
+        <target>About us</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
           <context context-type="linenumber">35</context>
@@ -225,6 +278,7 @@
       </trans-unit>
       <trans-unit id="f557c805d8f762e54ebbf66066ff34e0635a53bb" datatype="html">
         <source>Integrantes</source>
+        <target>Team</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
           <context context-type="linenumber">45</context>
@@ -232,6 +286,7 @@
       </trans-unit>
       <trans-unit id="174aaea03d030588ca02b67d9586685361215369" datatype="html">
         <source>Contacto</source>
+        <target>Contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
           <context context-type="linenumber">55</context>
@@ -239,6 +294,7 @@
       </trans-unit>
       <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
         <source>Amable</source>
+        <target>Friendly</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
           <context context-type="linenumber">8</context>
@@ -254,6 +310,7 @@
       </trans-unit>
       <trans-unit id="1d7bb594d4335cc5c78d32ee2f713d43aa8f2230" datatype="html">
         <source>Juguetón</source>
+        <target>Playful</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
           <context context-type="linenumber">9</context>
@@ -273,6 +330,9 @@
           Gracias por el like ¡Woof!
         <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
       </source>
+      <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+          Thanks for the like ¡Woof!
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
           <context context-type="linenumber">33</context>
@@ -286,6 +346,13 @@
         <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
       <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
     </source>
+    <target>
+    <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+          Sad Woof :(
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
           <context context-type="linenumber">39</context>
@@ -293,6 +360,7 @@
       </trans-unit>
       <trans-unit id="116b2d1ea4973dfbdc8c78351c48704380d58591" datatype="html">
         <source>Golden Retriever</source>
+        <target>Golden Retriever </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">2</context>
@@ -307,6 +375,13 @@
     la tercera raza familiar más popular —mediante registro— en los Estados Unidos,​el quinto más popular en Australia,y
     la octava raza más popular en el Reino Unido.
   </source>
+  <target>
+  The golden retriever or golden retriever is a breed of dog that developed in the United Kingdom, more specifically in
+    Scotland, around 1850. With its characteristics of a retriever, bloodhound, bloodhound and water spaniel, it is a
+    Skillful hunting dog with tracking skills. He has a friendly disposition and an attitude that has made him
+    in
+    the third most popular family breed - by registration - in the United States, the fifth most popular in Australia, and
+    the eighth most popular breed in the UK.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">3</context>
@@ -314,6 +389,7 @@
       </trans-unit>
       <trans-unit id="974c2811dfc1cbdfd069e2591ab106feed5899d1" datatype="html">
         <source>Conoce más</source>
+        <target>Know more</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">11</context>
@@ -321,6 +397,7 @@
       </trans-unit>
       <trans-unit id="dd2a11ebc737589080ed400dacc33a8c8c84728b" datatype="html">
         <source>Nombre</source>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
           <context context-type="linenumber">5</context>
@@ -336,6 +413,7 @@
       </trans-unit>
       <trans-unit id="7f992a8df58a79502aa99f9d04b0a223500282dc" datatype="html">
         <source>Ubicación</source>
+        <target>Location</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
           <context context-type="linenumber">6</context>
@@ -343,6 +421,7 @@
       </trans-unit>
       <trans-unit id="01aa5508abb4473531a18c605c1c41ae4b6074d0" datatype="html">
         <source>Matches</source>
+        <target>Matches</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
           <context context-type="linenumber">7</context>
@@ -350,6 +429,7 @@
       </trans-unit>
       <trans-unit id="43257cb1d6045033353dccd3569ef44782ffc38b" datatype="html">
         <source>Características</source>
+        <target>Characteristics</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">10</context>
@@ -361,6 +441,7 @@
       </trans-unit>
       <trans-unit id="f69d7062860b7d2ff099ec2da93ebd1f0500b614" datatype="html">
         <source>Docil</source>
+        <target>Docile</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">12</context>
@@ -372,6 +453,7 @@
       </trans-unit>
       <trans-unit id="b0e611b2bfac70d1af43295307e558cbf9f48e57" datatype="html">
         <source>Descripción</source>
+        <target>Description</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">25</context>
@@ -385,6 +467,7 @@
         <source>
       Añadir friend
     </source>
+    <target>Add friend </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">29</context>
@@ -394,6 +477,7 @@
         <source>
       Cancelar
     </source>
+    <target>Cancel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">32</context>
@@ -407,6 +491,7 @@
         <source>
       Actualizar datos
     </source>
+    <target>Update data </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
           <context context-type="linenumber">29</context>
