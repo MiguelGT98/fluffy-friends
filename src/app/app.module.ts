@@ -12,6 +12,15 @@ import { ChartsModule } from 'ng2-charts';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {registerLocaleData} from '@angular/common';
+import localMx from '@angular/common/locales/es-MX';
+import localUS from '@angular/common/locales/en';
+
+registerLocaleData(localMx, 'es-MX');
+registerLocaleData(localUS, 'en');
+
+
+
 @NgModule({
   declarations: [AppComponent, FooterComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, StorageServiceModule, ChartsModule, BrowserAnimationsModule],
