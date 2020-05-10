@@ -1,6 +1,5 @@
-<!--p>registro works!</p-->
 <div class="container mt-4 m0-auto p-3">
-  <form>
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm.value)">
     <h1 style="text-align: center;">Registro</h1>
     <div class="form-group">
       <label for="username"><b>Nombre de usuario</b></label>
@@ -46,18 +45,14 @@
         id="passwordConfirmation"
       />
     </div>
-    <a
+    <button
       class="btn btn-primary mb-2 w-100 m-0"
       type="submit"
       [routerLink]="['/app']"
     >
       Registrarse
-    </a>
-    <a
-      class="btn btn-link mb-2 w-100 m-0"
-      type="submit"
-      [routerLink]="['/login']"
-    >
+    </button>
+    <a class="btn btn-link mb-2 w-100 m-0" [routerLink]="['/login']">
       Inicia sesión
     </a>
   </form>

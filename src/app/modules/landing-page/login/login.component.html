@@ -1,7 +1,7 @@
 <!--p>login works!</p-->
 
 <div class="container mt-4 m0-auto p-3">
-  <form>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
     <h1 style="text-align: center;">Iniciar sesión</h1>
     <div class="form-group">
       <label for="uname"><b>Correo electrónico</b></label>
@@ -9,9 +9,10 @@
         class="form-control"
         type="email"
         placeholder="Correo electrónico"
-        name="uname"
+        name="email"
+        formControlName="email"
         required
-        id="uname"
+        id="email"
       />
     </div>
     <div class="form-group">
@@ -21,22 +22,19 @@
         type="password"
         placeholder="Ingresa contraseña"
         name="password"
+        formControlName="password"
         required
         id="password"
       />
     </div>
-    <a
-      class="btn btn-primary mb-2 w-100 m-0"
+    <button
       type="submit"
+      class="btn btn-primary mb-2 w-100 m-0"
       [routerLink]="['/app']"
     >
       Iniciar sesión
-    </a>
-    <a
-      class="btn btn-link mb-2 w-100 m-0"
-      type="submit"
-      [routerLink]="['/register']"
-    >
+    </button>
+    <a class="btn btn-link mb-2 w-100 m-0" [routerLink]="['/register']">
       Regístrate
     </a>
     <p>

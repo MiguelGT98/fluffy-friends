@@ -8,6 +8,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { LandingPageComponent } from './landing-page.component';
 import { NavbarNoAuthComponent } from './navbar-no-auth/navbar-no-auth.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,11 @@ import { NavbarNoAuthComponent } from './navbar-no-auth/navbar-no-auth.component
     LandingPageComponent,
     NavbarNoAuthComponent,
   ],
-  imports: [CommonModule, LandingPageRoutingModule],
+  imports: [
+    CommonModule,
+    LandingPageRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+  ],
 })
 export class LandingPageModule {}
