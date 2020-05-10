@@ -106,32 +106,135 @@
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="178aa14d8ee687d41b9be03758b6983fcf628e4e" datatype="html">
+        <source>Iniciar sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce3d165ac9d2a8c6d3208c107c4178e026126692" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Correo electrónico<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95d74b8ef9033e033f9f28ed0c6a650d3e002005" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Contraseña<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="382d058f961aad85cb50fd747715e461bcf3ee7b" datatype="html">
+        <source>
+      Iniciar sesión
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a4a82d3a820ac92b808edf105b173ab155a9ac1d" datatype="html">
+        <source>
+      Regístrate
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f0c98e4cb46b988007e4a6628cb2c7270e95c73c" datatype="html">
+        <source>
+        <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input/&gt;"/>
+        Recuérdame
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b40cdaf5f87dfb79779df051a62583daf6df0a2" datatype="html">
+        <source>¿Olvidaste tu <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>contraseña?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf04f7c4d68523426a322308a940acf7a2d09b29" datatype="html">
+        <source>Registro</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6f724355d6e76176807062ed0d656bdad7093610" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Nombre de usuario<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b30461ae40ae036aed53146a462b3e1c074ab2e" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Repite contraseña<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97b9b919dc6ca54ff6f63ea6ec3fa370e96d046c" datatype="html">
+        <source>
+      Registrarse
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46b7b2ae1e843824993020e744a59a7e5e929070" datatype="html">
+        <source>
+      Inicia sesión
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="ebca47e578ca0ca71c4700953e44866c97691220" datatype="html">
         <source>Inicio <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
         <source>Sobre nosotros</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f557c805d8f762e54ebbf66066ff34e0635a53bb" datatype="html">
         <source>Integrantes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="174aaea03d030588ca02b67d9586685361215369" datatype="html">
         <source>Contacto</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
@@ -140,12 +243,28 @@
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="1d7bb594d4335cc5c78d32ee2f713d43aa8f2230" datatype="html">
         <source>Juguetón</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
           <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dfab7af8a23a50bc429158a4a3814b493e380022" datatype="html">
@@ -198,6 +317,99 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd2a11ebc737589080ed400dacc33a8c8c84728b" datatype="html">
+        <source>Nombre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f992a8df58a79502aa99f9d04b0a223500282dc" datatype="html">
+        <source>Ubicación</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01aa5508abb4473531a18c605c1c41ae4b6074d0" datatype="html">
+        <source>Matches</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="43257cb1d6045033353dccd3569ef44782ffc38b" datatype="html">
+        <source>Características</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f69d7062860b7d2ff099ec2da93ebd1f0500b614" datatype="html">
+        <source>Docil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0e611b2bfac70d1af43295307e558cbf9f48e57" datatype="html">
+        <source>Descripción</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e577a1fd728ee2e169c8e209c70a534f2982c71b" datatype="html">
+        <source>
+      Añadir friend
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8b993d012f192b08d28dbd2a11e2f72948ceec6d" datatype="html">
+        <source>
+      Cancelar
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ace110c0d0de821ea86911ab1fc1b1c693d638f" datatype="html">
+        <source>
+      Actualizar datos
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
     </body>
