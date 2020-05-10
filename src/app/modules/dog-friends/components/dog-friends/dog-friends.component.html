@@ -2,18 +2,16 @@
   <table class="table table-striped table-bordered table-responsive-sm">
     <thead>
       <tr>
-        <th scope="col">Nombre</th>
-        <th scope="col">Ubicación</th>
-        <th scope="col">Matches</th>
+        <th scope="col" i18n>Nombre</th>
+        <th scope="col" i18n>Ubicación</th>
+        <th scope="col" i18n>Matches</th>
       </tr>
     </thead>
     <tbody *ngFor="let friend of friends">
       <tr>
         <td>
           <img src="{{ friend.url }}" alt="{{ friend.alt }}" /><a
-            routerLink="edit/{{ friend.id }}"
-            >{{ friend.name }}</a
-          >
+            routerLink="edit/{{ friend.id }}">{{ friend.name }}</a>
         </td>
         <td>{{ friend.location }}</td>
         <td>{{ friend.matches }}</td>

@@ -2,27 +2,16 @@
   <app-dog-card></app-dog-card>
   <form [formGroup]="friendForm" (ngSubmit)="onSubmit(friendForm.value)">
     <div class="form-group">
-      <label for="name">Nombre</label>
-      <input
-        type="text"
-        class="form-control"
-        id="name"
-        name="name"
-        formControlName="name"
-        placeholder="Ingresa nombre"
-      />
+      <label for="name" i18n>Nombre</label>
+      <input type="text" class="form-control" id="name" name="name" formControlName="name"
+        placeholder="Ingresa nombre" />
     </div>
     <div class="form-group">
-      <label for="name">Características</label>
-      <select
-        class="form-control"
-        id="characteristics"
-        name="characteristics"
-        formControlName="characteristics"
-      >
-        <option>Docil</option>
-        <option>Juguetón</option>
-        <option>Amable</option>
+      <label for="name" i18n>Características</label>
+      <select class="form-control" id="characteristics" name="characteristics" formControlName="characteristics">
+        <option i18n>Docil</option>
+        <option i18n>Juguetón</option>
+        <option i18n>Amable</option>
       </select>
     </div>
     <div class="form-group">
@@ -33,19 +22,14 @@
       <div id="preview-files"></div>
     </div>
     <div class="form-group">
-      <label for="description">Descripción</label>
-      <textarea
-        class="form-control"
-        id="description"
-        name="description"
-        rows="4"
-        formControlName="description"
-      ></textarea>
+      <label for="description" i18n>Descripción</label>
+      <textarea class="form-control" id="description" name="description" rows="4"
+        formControlName="description"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary mb-2">
+    <button type="submit" class="btn btn-primary mb-2" i18n>
       Añadir friend
     </button>
-    <a class="btn btn-link mb-2">
+    <a class="btn btn-link mb-2" i18n>
       Cancelar
     </a>
   </form>
