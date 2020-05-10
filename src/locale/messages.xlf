@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="e764da0ecafbe7289543ca7bdab84940f70e9a1e" datatype="html">
+        <source>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry&apos;s standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="656864832cc2c37106aaa75d9fe345bd879508c5" datatype="html">
+        <source>Iniciar Sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/home/home.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1015182c9e95dfc2dc6666e51cbe44685c264f94" datatype="html">
+        <source>
+      Somos un grupo de estudiantes del Tec de Monterrey que desea poder encontrarles un hogar digno a los perros que
+      se encuentran en estado de adopción. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d066d4a31492f77034c03f21186bf2f6a1fbdbf" datatype="html">
+        <source>Con ayuda de nuestros Cuidadoges (personas quienes dan en adopción), nuestros
+      Adogtadores (personas que adoptan) y de esta plataforma, queremos lograr esto, uniendo perros con personas.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19024e1e92f946c75bdc607659f336747ec86087" datatype="html">
+        <source>Queremos que esta plataforma ayude a encontrar al perro ideal para cada futuro dueño.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b4daf4e072777dfdaee5d8985aa77891b73e3a83" datatype="html">
+        <source>Conoce al equipo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9fe9f12c86ba7a1627b03df24de8828938cd16f" datatype="html">
+        <source>
+              Soy Alejandro. Tengo mucho interés sobre el desarrollo de
+              aplicaciones móviles y web y disfruto aprender sobre nuevas
+              cosas involucradas con el desarrollo de software en general.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92d46a60e944791a95af7271b4c01b3a3ef065d6" datatype="html">
+        <source>
+              Soy Miguel, estudiante de 8vo semestre de la carrera ITC en el
+              Tec de Monterrey CCM. Mi pasión es el desarrollo web y las
+              películas de terror.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6193ed09b5ee1477c2edbece26b8326469de47c3" datatype="html">
+        <source>
+              Soy estudiante del Tec de Monterrey, cursando 8vo semestre de la
+              carrera ITC (Ingeniería en Tecnologías Computacionales)
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fe6dbf8474bcbfe53e05cb28ffa34d5b0b2797a" datatype="html">
+        <source>
+              Estudiante de último semestre de la carrera ITC, apasionado por
+              la seguridad informática. Amante de los perros y los corgis.
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67b6f112d0a57e165cc4006d894025e571fb6604" datatype="html">
+        <source>Ayúdanos a ayudarlos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/contacto/contacto.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebca47e578ca0ca71c4700953e44866c97691220" datatype="html">
+        <source>Inicio <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
+        <source>Sobre nosotros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f557c805d8f762e54ebbf66066ff34e0635a53bb" datatype="html">
+        <source>Integrantes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="174aaea03d030588ca02b67d9586685361215369" datatype="html">
+        <source>Contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
+        <source>Amable</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d7bb594d4335cc5c78d32ee2f713d43aa8f2230" datatype="html">
+        <source>Juguetón</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfab7af8a23a50bc429158a4a3814b493e380022" datatype="html">
+        <source>
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+          Gracias por el like ¡Woof!
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79b557e8d60f509e45f4e5c3178d6dbbb5b20d34" datatype="html">
+        <source>
+      <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+          Sad Woof :(
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="116b2d1ea4973dfbdc8c78351c48704380d58591" datatype="html">
+        <source>Golden Retriever</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aa03add2870fd77db8bba099f4ac9d725908b36d" datatype="html">
+        <source>
+    El golden retriever o cobrador dorado es una raza de perro que se desarrolló en el Reino Unido, más concretamente en
+    Escocia, alrededor de 1850. Con sus características de perro cobrador, sabueso, bloodhound y spaniel de agua, es un
+    hábil perro de caza con aptitudes para el rastreo. Posee una disposición amigable y una actitud que lo ha convertido
+    en
+    la tercera raza familiar más popular —mediante registro— en los Estados Unidos,​el quinto más popular en Australia,y
+    la octava raza más popular en el Reino Unido.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="974c2811dfc1cbdfd069e2591ab106feed5899d1" datatype="html">
+        <source>Conoce más</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

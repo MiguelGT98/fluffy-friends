@@ -5,8 +5,8 @@
   <div class="card-body">
     <h5 class="card-title">{{ name || "Benito" }}</h5>
     <p class="card-text">
-      <span class="badge badge-pill text-info border border-info">Amable</span>
-      <span class="badge badge-pill text-dark border border-dark">Juguetón</span>
+      <span class="badge badge-pill text-info border border-info" i18n>Amable</span>
+      <span class="badge badge-pill text-dark border border-dark" i18n>Juguetón</span>
     </p>
     <div class="card-buttons">
       <button class="dislike" (click)="toggle2()">
@@ -30,13 +30,13 @@
       </button>
     </div>
     <div [@popOverState]="likeDogo">
-      <p class="textobonito">
+      <p class="textobonito" i18n>
         <span>
           Gracias por el like ¡Woof!
         </span>
       </p>
     </div>
-    <div [@popOverState2]="dislikeDogo">
+    <div [@popOverState2]="dislikeDogo" i18n>
       <p class="textobonito">
         <span>
           Sad Woof :(
