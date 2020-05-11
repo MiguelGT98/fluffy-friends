@@ -213,28 +213,57 @@
         <source>Inicio <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
         <source>Sobre nosotros</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f557c805d8f762e54ebbf66066ff34e0635a53bb" datatype="html">
         <source>Integrantes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="174aaea03d030588ca02b67d9586685361215369" datatype="html">
         <source>Contacto</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="444f3ef13573752706ac5f29059b4c94ef3573e6" datatype="html">
+        <source>Home
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f0b3178309bf580a642239fb399d0982596c492" datatype="html">
+        <source>Mis friends</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b28b6fbf713e2b85d1ffec441b4404f7436e0884" datatype="html">
+        <source>Nuevo friend</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4565583cc7d27db2e559b1a270f4ea55ce7e063e" datatype="html">
+        <source>Mi perfil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">

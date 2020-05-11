@@ -50,7 +50,7 @@
       <trans-unit id="2d066d4a31492f77034c03f21186bf2f6a1fbdbf" datatype="html">
         <source>Con ayuda de nuestros Cuidadoges (personas quienes dan en adopción), nuestros
       Adogtadores (personas que adoptan) y de esta plataforma, queremos lograr esto, uniendo perros con personas.</source>
-      <target>With the help of our caregivers (people who give up for adoption), our
+        <target>With the help of our caregivers (people who give up for adoption), our
       Adoptors (people who adopt) and from this platform, we want to achieve this, uniting dogs with people.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/about/about.component.html</context>
@@ -79,7 +79,7 @@
               aplicaciones móviles y web y disfruto aprender sobre nuevas
               cosas involucradas con el desarrollo de software en general.
             </source>
-            <target>I am Alejandro. I am very interested in the development of
+        <target>I am Alejandro. I am very interested in the development of
               mobile and web apps and I enjoy learning about new
               things involved with software development in general.</target>
         <context-group purpose="location">
@@ -106,7 +106,7 @@
               Soy estudiante del Tec de Monterrey, cursando 8vo semestre de la
               carrera ITC (Ingeniería en Tecnologías Computacionales)
             </source>
-            <target>I am a student of the Tec de Monterrey, studying 8th semester of the
+        <target>I am a student of the Tec de Monterrey, studying 8th semester of the
               ITC (Computer Technology Engineering)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
@@ -118,7 +118,7 @@
               Estudiante de último semestre de la carrera ITC, apasionado por
               la seguridad informática. Amante de los perros y los corgis.
             </source>
-            <target>Last semester of ITC degree, passionate about
+        <target>Last semester of ITC degree, passionate about
               computer security. Dog and corgis lover</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/integrantes/integrantes.component.html</context>
@@ -135,7 +135,7 @@
       </trans-unit>
       <trans-unit id="178aa14d8ee687d41b9be03758b6983fcf628e4e" datatype="html">
         <source>Iniciar sesión</source>
-        <target>Log in</target>
+         <target>Log in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
           <context context-type="linenumber">5</context>
@@ -221,7 +221,7 @@
       </trans-unit>
       <trans-unit id="6f724355d6e76176807062ed0d656bdad7093610" datatype="html">
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Nombre de usuario<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
-       <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Username<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
+        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Username<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></target>
 
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
@@ -264,7 +264,7 @@
         <target>Home <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
@@ -273,7 +273,7 @@
         <target>About us</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f557c805d8f762e54ebbf66066ff34e0635a53bb" datatype="html">
@@ -281,7 +281,7 @@
         <target>Team</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="174aaea03d030588ca02b67d9586685361215369" datatype="html">
@@ -289,7 +289,40 @@
         <target>Contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/navbar-no-auth/navbar-no-auth.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="444f3ef13573752706ac5f29059b4c94ef3573e6" datatype="html">
+        <source>Home
+        </source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f0b3178309bf580a642239fb399d0982596c492" datatype="html">
+        <source>Mis friends</source>
+        <target>My friends</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b28b6fbf713e2b85d1ffec441b4404f7436e0884" datatype="html">
+        <source>Nuevo friend</source>
+        <target>New friend</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4565583cc7d27db2e559b1a270f4ea55ce7e063e" datatype="html">
+        <source>Mi perfil</source>
+        <target>My profile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/common/navbar/navbar.component.html</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
@@ -330,7 +363,7 @@
           Gracias por el like ¡Woof!
         <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
       </source>
-      <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
           Thanks for the like ¡Woof!
         <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
@@ -360,7 +393,7 @@
       </trans-unit>
       <trans-unit id="116b2d1ea4973dfbdc8c78351c48704380d58591" datatype="html">
         <source>Golden Retriever</source>
-        <target>Golden Retriever </target>
+        <target>Golden Retriever</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">2</context>
