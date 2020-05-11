@@ -23,7 +23,7 @@ export class EditFriendComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
-      this.id = params['id'];
+      this.id = params.id;
       this.friend = this.friendService.getFriend(this.id);
     });
 

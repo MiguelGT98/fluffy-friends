@@ -11,13 +11,15 @@ export class FriendsService {
   public getFriends(): Array<Friend> {
     const friendsInLocalStorage = this.friendsLocalStorageService.getFriends();
     const newFriends = [];
-    for (let key in friendsInLocalStorage) {
-      newFriends.push(
-        Friend.fromJSON({
-          id: key,
-          ...friendsInLocalStorage[key],
-        })
-      );
+    for (const key in friendsInLocalStorage) {
+      if (friendsInLocalStorage.hasOwnProperty(key)) {
+        newFriends.push(
+          Friend.fromJSON({
+            id: key,
+            ...friendsInLocalStorage[key],
+          })
+        );
+      }
     }
 
     return newFriends;

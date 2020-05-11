@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'landing-navbar-no-auth',
+  selector: 'app-landing-navbar-no-auth',
   templateUrl: './navbar-no-auth.component.html',
   styleUrls: ['./navbar-no-auth.component.scss'],
 })

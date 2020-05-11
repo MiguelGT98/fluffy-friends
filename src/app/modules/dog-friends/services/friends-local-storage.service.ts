@@ -9,7 +9,7 @@ export class FriendsLocalStorageService {
 
   constructor(@Inject(LOCAL_STORAGE) private storage: StorageService) {}
 
-  public getFriends(): Array<Object> {
+  public getFriends(): Array<object> {
     const friendsInStorage = this.storage.get('friends') || {};
 
     return friendsInStorage;
