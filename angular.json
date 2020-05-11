@@ -85,6 +85,9 @@
           "options": {
             "browserTarget": "fluffy-friends:build"
           },
+          "assets": [
+            "src/assets"
+          ],
           "configurations": {
             "production": {
               "browserTarget": "fluffy-friends:build:production"
