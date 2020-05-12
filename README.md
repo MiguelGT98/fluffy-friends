@@ -1,6 +1,8 @@
 # FluffyFriends
 
-# Members
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+
+## Members
 
 [José Miguel Gallardo Tabares](https://github.com/MiguelGT98)
 
@@ -9,8 +11,6 @@
 [José Gustavo Genel Castañeda](https://github.com/jgenel)
 
 [Anne Constanze Schreiber Brito](https://github.com/ACSBSC)
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 ## Development server
 
