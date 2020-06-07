@@ -1,5 +1,6 @@
 import { Injectable, Inject } from '@angular/core';
 import { LOCAL_STORAGE, StorageService } from 'ngx-webstorage-service';
+import { Friend } from '../models/friend';
 
 @Injectable({
   providedIn: 'root',
@@ -21,7 +22,7 @@ export class FriendsLocalStorageService {
     return friend;
   }
 
-  public addFriend(friend: any): void {
+  public addFriend(friend: Friend): void {
     console.log(friend);
 
     const friendsInStorage = this.storage.get('friends') || {};
