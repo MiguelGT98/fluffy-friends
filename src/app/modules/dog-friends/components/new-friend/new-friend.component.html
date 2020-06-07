@@ -29,7 +29,11 @@
     <button type="submit" class="btn btn-primary mb-2" i18n>
       Añadir friend
     </button>
-    <a class="btn btn-link mb-2" i18n>
+    <a class="btn btn-link mb-2"
+          [routerLink]="['/friends']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+    i18n>
       Cancelar
     </a>
   </form>
