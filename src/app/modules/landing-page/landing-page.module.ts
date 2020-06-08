@@ -10,6 +10,9 @@ import { LandingPageComponent } from './landing-page.component';
 import { NavbarNoAuthComponent } from './navbar-no-auth/navbar-no-auth.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http';
+import { StorageServiceModule } from 'ngx-webstorage-service';
+
 @NgModule({
   declarations: [
     AboutComponent,
@@ -25,6 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     LandingPageRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    StorageServiceModule,
   ],
 })
 export class LandingPageModule {}

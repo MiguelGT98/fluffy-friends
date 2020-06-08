@@ -23,8 +23,6 @@ export class FriendsLocalStorageService {
   }
 
   public addFriend(friend: Friend): void {
-    console.log(friend);
-
     const friendsInStorage = this.storage.get('friends') || {};
     const id = this.generateID();
     friendsInStorage[id] = {

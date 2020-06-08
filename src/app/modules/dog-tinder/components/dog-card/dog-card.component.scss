@@ -1,17 +1,17 @@
 @import "../../../../../styles/variables";
+@import "../../../../../styles/mixins";
 
 .textobonito {
-  border: 4px double rgba(255, 255, 255, .25);
+  border: 4px double rgba(255, 255, 255, 0.25);
 
   span {
-
     font: 25 2em/1 "Oswald", sans-serif;
     font-weight: bolder;
     letter-spacing: 0;
-    padding: .25em 0 .325em;
+    padding: 0.25em 0 0.325em;
     display: block;
     margin: 0 auto;
-    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
 
     /* Clip Background Image */
 
@@ -28,7 +28,6 @@
 
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
-
   }
 }
 
@@ -126,5 +125,11 @@
         }
       }
     }
+  }
+}
+
+@include cellphone {
+  .card {
+    margin: 0 auto 24px auto;
   }
 }

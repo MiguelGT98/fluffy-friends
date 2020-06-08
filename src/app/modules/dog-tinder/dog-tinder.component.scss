@@ -7,8 +7,8 @@
   min-height: 100vh;
 }
 
-@include cellphone{
-  .main{
+@include cellphone {
+  .main {
     display: block;
   }
 }
