@@ -1,11 +1,9 @@
 <app-navbar></app-navbar>
-<div class="main">
-  <div *ngFor="let friend of friends$">
-    <app-dog-card
-      name="{{ friend.name }}"
-      url="{{ friend.image }}"
-      [characteristics]="friend.characteristics"
-    ></app-dog-card>
-    <app-dog-wiki></app-dog-wiki>
-  </div>
-</div>
+<deckgo-deck class="main">
+  <deckgo-slide-title slot *ngFor="let friend of friends$" class="slide">
+      <app-dog-card slot="title" name="{{ friend.name }}" url="{{ friend.image }}"
+        [characteristics]="friend.characteristics">
+      </app-dog-card>
+      <app-dog-wiki slot="title"></app-dog-wiki>
+  </deckgo-slide-title>
+</deckgo-deck>

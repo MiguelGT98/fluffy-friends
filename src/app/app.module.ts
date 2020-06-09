@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './common/footer/footer.component';
@@ -17,6 +17,10 @@ import { registerLocaleData } from '@angular/common';
 import localMx from '@angular/common/locales/es-MX';
 import localUS from '@angular/common/locales/en';
 
+
+
+
+
 registerLocaleData(localMx, 'es-MX');
 registerLocaleData(localUS, 'en');
 
@@ -33,5 +37,6 @@ registerLocaleData(localUS, 'en');
   providers: [],
   bootstrap: [AppComponent],
   exports: [],
+
 })
 export class AppModule {}

@@ -4,7 +4,10 @@
   padding: 30px 20px;
   display: flex;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 180vh;
+  .slide{
+    padding-top:780px;
+  }
 }
 
 @include cellphone {
