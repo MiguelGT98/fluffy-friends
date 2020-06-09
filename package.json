@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --configuration=en --prod"
   },
   "private": true,
   "dependencies": {
