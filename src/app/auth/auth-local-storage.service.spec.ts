@@ -1,5 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-
 import { AuthLocalStorageService } from './auth-local-storage.service';
 
 describe('AuthLocalStorageService', () => {

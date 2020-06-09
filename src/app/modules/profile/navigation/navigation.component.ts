@@ -1,9 +1,9 @@
 import { Component, OnInit, Input, SimpleChange } from '@angular/core';
-import { AuthLocalStorageService } from '../../landing-page/services/auth-local-storage.service';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { User } from '../models/user';
 import { Observable } from 'rxjs';
+import { AuthService } from 'src/app/auth/auth.service';
 
 @Component({
   selector: 'app-navigation',
@@ -17,7 +17,7 @@ export class NavigationComponent implements OnInit {
   createdAt: string;
 
   constructor(
-    private authLocal: AuthLocalStorageService,
+    private authService: AuthService,
     private router: Router,
     private location: Location
   ) {}
@@ -30,9 +30,9 @@ export class NavigationComponent implements OnInit {
 
     this.createdAt = this.user.created_at.toLocaleDateString('es-MX', options);
   }
-  
+
   logout() {
-    this.authLocal.logOut();
+    this.authService.logOut();
     this.location.replaceState('/');
     this.router.navigate(['/']);
   }

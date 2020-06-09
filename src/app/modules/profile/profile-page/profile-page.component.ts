@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ProfileService } from '../services/profile.service';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
-import { AuthLocalStorageService } from '../../landing-page/services/auth-local-storage.service';
 import { User } from '../models/user';
 import { Observable } from 'rxjs';
+import { AuthLocalStorageService } from 'src/app/auth/auth-local-storage.service';
 
 @Component({
   selector: 'app-profile-page',
@@ -21,12 +21,7 @@ export class ProfilePageComponent implements OnInit {
     private location: Location,
     private profileService: ProfileService
   ) {
-    if (!this.authLocal.getCurrentUser()) {
-      this.location.replaceState('/');
-      this.router.navigate(['/login']);
-    } else {
-      this.userToken = this.authLocal.getCurrentUser();
-    }
+    this.userToken = this.authLocal.getCurrentUser();
   }
 
   ngOnInit(): void {

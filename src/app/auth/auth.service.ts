@@ -5,10 +5,11 @@ import {
   HttpHeaders,
 } from '@angular/common/http';
 
-import { environment } from '../../../../environments/environment';
+import { environment } from '../../environments/environment';
 
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
+import { AuthLocalStorageService } from './auth-local-storage.service';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -20,9 +21,14 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class AuthService {
+  loggedIn: boolean = false;
   endpoint: string = environment.apiUrl;
+  redirectUrl: string;
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private authLocal: AuthLocalStorageService
+  ) {}
 
   register(user: Object): Observable<any> {
     return this.http
@@ -34,6 +40,11 @@ export class AuthService {
     return this.http
       .post(`${this.endpoint}users/login`, user, httpOptions)
       .pipe(retry(3), catchError(this.handleError));
+  }
+
+  logOut() {
+    this.loggedIn = false;
+    this.authLocal.logOut();
   }
 
   private handleError(error: HttpErrorResponse) {
@@ -49,5 +60,9 @@ export class AuthService {
     }
     // return an observable with a user-facing error message
     return throwError('Something bad happened; please try again later.');
+  }
+
+  isLoggedIn(): boolean {
+    return this.authLocal.getCurrentUser() !== null;
   }
 }

@@ -3,7 +3,7 @@ import { FormBuilder } from '@angular/forms';
 
 import { User } from '../models/user';
 import { ProfileService } from '../services/profile.service';
-import { AuthLocalStorageService } from '../../landing-page/services/auth-local-storage.service';
+import { AuthLocalStorageService } from 'src/app/auth/auth-local-storage.service';
 
 @Component({
   selector: 'app-details',

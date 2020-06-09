@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { AuthService } from '../services/auth.service';
+import { AuthService } from '../../../auth/auth.service';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
-import { AuthLocalStorageService } from '../services/auth-local-storage.service';
+import { AuthLocalStorageService } from 'src/app/auth/auth-local-storage.service';
 
 @Component({
   selector: 'app-registro',
@@ -27,11 +27,6 @@ export class RegistroComponent implements OnInit {
       password: '',
       passwordConfirmation: '',
     });
-
-    if (this.authLocal.getCurrentUser()) {
-      this.location.replaceState('/');
-      this.router.navigate(['/app']);
-    }
   }
 
   onSubmit(user) {
@@ -40,7 +35,6 @@ export class RegistroComponent implements OnInit {
         this.authLocal.setCurrentUser(success.token);
         this.location.replaceState('/');
         this.router.navigate(['/app']);
-        console.log(success);
       },
       (errors) => {
         console.error(errors);
