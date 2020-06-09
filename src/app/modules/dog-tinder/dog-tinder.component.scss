@@ -2,16 +2,22 @@
 
 .main {
   padding: 30px 20px;
-  display: flex;
-  justify-content: space-between;
-  min-height: 180vh;
-  .slide{
-    padding-top:780px;
+  width: 100%;
+  display: block;
+  min-height: calc(100vh - 56px);
+
+  .my-slide {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
 @include cellphone {
   .main {
     display: block;
+
+    .my-slide {
+      flex-wrap: wrap;
+    }
   }
 }

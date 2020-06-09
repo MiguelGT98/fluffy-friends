@@ -5,10 +5,9 @@ import { Friend } from '../dog-friends/models/friend';
 
 import '@deckdeckgo/core';
 import '@deckdeckgo/slide-title';
-import { defineCustomElements as deckGoCore } from
-         '@deckdeckgo/core/dist/loader';
-import { defineCustomElements as deckGoSlide } from
-         '@deckdeckgo/slide-title/dist/loader';deckGoCore(window);
+import { defineCustomElements as deckGoCore } from '@deckdeckgo/core/dist/loader';
+import { defineCustomElements as deckGoSlide } from '@deckdeckgo/slide-title/dist/loader';
+deckGoCore(window);
 deckGoSlide(window);
 
 @Component({
@@ -18,6 +17,7 @@ deckGoSlide(window);
 })
 export class DogTinderComponent implements OnInit {
   friends$: Observable<Array<Friend>>;
+  showNavigationArrows: boolean = true;
 
   constructor(private friendsService: FriendsService) {}
 
@@ -25,8 +25,6 @@ export class DogTinderComponent implements OnInit {
     this.friendsService.getFriends().subscribe(
       ({ friends }) => {
         this.friends$ = friends;
-
-        console.log(this.friends$);
       },
       (error) => {
         console.error(error);

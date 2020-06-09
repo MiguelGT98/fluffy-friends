@@ -3,6 +3,8 @@ import { Friend } from '../../models/friend';
 import { FriendsService } from '../../services/friends.service';
 import { Observable } from 'rxjs';
 
+declare var $: any;
+
 @Component({
   selector: 'app-dog-friends',
   templateUrl: './dog-friends.component.html',
@@ -21,8 +23,9 @@ export class DogFriendsComponent implements OnInit {
       ({ friends }) => {
         this.friends$ = friends;
       },
-      (error) => {
-        console.error(error);
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
       }
     );
   }

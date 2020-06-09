@@ -69,8 +69,7 @@ export class FriendsService {
   }
 
   private handleError(error: HttpErrorResponse) {
-    console.error(error);
-    return throwError('Something bad happened; please try again later.');
+    return throwError(error);
   }
 
   public addFriend(friend: any): Observable<any> {

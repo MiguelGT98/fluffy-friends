@@ -2,6 +2,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { FriendsService } from '../../services/friends.service';
 
+declare var $: any;
+
 @Component({
   selector: 'app-new-friend',
   templateUrl: './new-friend.component.html',
@@ -29,10 +31,12 @@ export class NewFriendComponent implements OnInit {
   onSubmit(friend) {
     this.friendService.addFriend(friend).subscribe(
       (success) => {
-        console.log(success);
+        $('#success .modal-body').text(success.message);
+        $('#success').modal('toggle');
       },
-      (error) => {
-        console.error(error);
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
       }
     );
   }

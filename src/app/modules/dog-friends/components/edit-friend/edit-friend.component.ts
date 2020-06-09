@@ -6,6 +6,8 @@ import { FriendsService } from '../../services/friends.service';
 import { FormBuilder } from '@angular/forms';
 import { Observable, of } from 'rxjs';
 
+declare var $: any;
+
 @Component({
   selector: 'app-edit-friend',
   templateUrl: './edit-friend.component.html',
@@ -37,11 +39,10 @@ export class EditFriendComponent implements OnInit {
         this.friendForm = this.formBuilder.group({
           ...this.friend$,
         });
-
-        console.log(this.friend$);
       },
-      (error) => {
-        console.error(error);
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
       }
     );
   }
@@ -59,10 +60,12 @@ export class EditFriendComponent implements OnInit {
   onSubmit(friend) {
     this.friendService.updateFriend(friend).subscribe(
       (success) => {
-        console.log(success);
+        $('#success .modal-body').text(success.message);
+        $('#success').modal('toggle');
       },
-      (error) => {
-        console.log(error);
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
       }
     );
   }

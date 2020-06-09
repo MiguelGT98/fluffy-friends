@@ -5,6 +5,8 @@ import { User } from '../models/user';
 import { ProfileService } from '../services/profile.service';
 import { AuthLocalStorageService } from 'src/app/auth/auth-local-storage.service';
 
+declare var $: any;
+
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
@@ -35,9 +37,13 @@ export class DetailsComponent implements OnInit {
       .updateData(user, this.authLocal.getCurrentUser())
       .subscribe(
         (success) => {
-          console.log(success);
+          $('#success .modal-body').text(success.message);
+          $('#success').modal('toggle');
         },
-        (error) => {}
+        ({ error }) => {
+          $('#error .modal-body').text(error.message);
+          $('#error').modal('toggle');
+        }
       );
   }
 }

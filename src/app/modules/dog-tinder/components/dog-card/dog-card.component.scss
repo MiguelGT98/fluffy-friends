@@ -130,6 +130,8 @@
 
 @include cellphone {
   .card {
-    margin: 0 auto 24px auto;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: unset;
   }
 }

@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { LOCALE_ID, Injectable, Inject } from '@angular/core';
 
 import {
   HttpClient,
@@ -17,7 +17,10 @@ import { catchError, retry } from 'rxjs/operators';
 export class ProfileService {
   endpoint: string = environment.apiUrl;
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    @Inject(LOCALE_ID) private locale: string
+  ) {}
 
   getData(user: string): Observable<any> {
     return this.http
@@ -25,6 +28,7 @@ export class ProfileService {
         headers: new HttpHeaders({
           'Content-Type': 'application/json',
           Authorization: `Bearer ${user}`,
+          'Accept-Language': this.locale,
         }),
       })
       .pipe(retry(3), catchError(this.handleError));
@@ -32,18 +36,19 @@ export class ProfileService {
 
   updateData(user: object, userToken: string): Observable<any> {
     console.log(user, userToken);
-    return this.http.patch(`${this.endpoint}users`, user, {
-      headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${userToken}`,
-      }),
-    });
+    return this.http
+      .patch(`${this.endpoint}users`, user, {
+        headers: new HttpHeaders({
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${userToken}`,
+          'Accept-Language': this.locale,
+        }),
+      })
+      .pipe(retry(3), catchError(this.handleError));
   }
 
   private handleError(error: HttpErrorResponse) {
-    console.error(error);
-
     // return an observable with a user-facing error message
-    return throwError('Something bad happened; please try again later.');
+    return throwError(error);
   }
 }
