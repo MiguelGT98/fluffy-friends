@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: '',
+  apiUrl: 'https://still-fjord-68922.herokuapp.com/api/',
 };
