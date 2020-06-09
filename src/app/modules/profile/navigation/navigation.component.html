@@ -1,39 +1,27 @@
 <div class="author-card pb-3">
-  <div
-    class="author-card-cover"
-    style="
+  <div class="author-card-cover" style="
       background-image: url(https://demo.createx.studio/createx-html/img/widgets/author/cover.jpg);
-    "
-  ></div>
+    "></div>
   <div class="author-card-profile">
     <div class="author-card-avatar">
-      <img
-        [src]="
+      <img [src]="
           user.avatar
             ? user.avatar
             : 'https://res.cloudinary.com/miguelgt98/image/upload/v1591555931/viwfiqssoryy4acrcnhz.webp'
-        "
-        alt="Miguel Gallardo"
-      />
+        " alt="Miguel Gallardo" />
     </div>
     <div class="author-card-details">
       <h5 class="author-card-name text-lg">
         {{ user.username }}
       </h5>
-      <span class="author-card-position">Se unió en {{ createdAt }}</span>
+      <span class="author-card-position"><span i18n>Se unió en </span>{{ createdAt }}</span>
     </div>
   </div>
 </div>
 <div class="wizard">
   <nav class="list-group list-group-flush">
-    <a class="list-group-item active" href="#"
-      ><i class="fe-icon-user text-muted"></i>Ajustes de perfil</a
-    >
-    <a class="list-group-item" href="#"
-      ><i class="fe-icon-map-pin text-muted"></i>Mis mensajes</a
-    >
-    <a class="list-group-item" (click)="logout()"
-      ><i class="fe-icon-map-pin text-muted"></i>Cerrar sesión</a
-    >
+    <a class="list-group-item active" href="#" i18n><i class="fe-icon-user text-muted"></i>Ajustes de perfil</a>
+    <a class="list-group-item" href="#" i18n><i class="fe-icon-map-pin text-muted"></i>Mis mensajes</a>
+    <a class="list-group-item" (click)="logout()" i18n><i class="fe-icon-map-pin text-muted"></i>Cerrar sesión</a>
   </nav>
 </div>

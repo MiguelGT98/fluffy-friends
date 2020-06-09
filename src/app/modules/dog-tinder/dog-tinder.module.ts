@@ -5,7 +5,7 @@ import { DogTinderRoutingModule } from './dog-tinder-routing.module';
 import { DogTinderComponent } from './dog-tinder.component';
 import { CommonComponentsModule } from '../common-components/common-components.module';
 import { ChartsModule } from 'ng2-charts';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [DogWikiComponent, DogTinderComponent],
@@ -14,9 +14,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DogTinderRoutingModule,
     CommonComponentsModule,
     ChartsModule,
-    NgbModule,
+    NgbCarouselModule,
   ],
   exports: [DogWikiComponent, DogTinderComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class DogTinderModule {}
+export class DogTinderModule { }

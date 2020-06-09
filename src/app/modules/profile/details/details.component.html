@@ -1,80 +1,45 @@
 <div>
-  <form
-    class="row"
-    [formGroup]="profileForm"
-    (ngSubmit)="onSubmit(profileForm.value)"
-  >
+  <form class="row" [formGroup]="profileForm" (ngSubmit)="onSubmit(profileForm.value)">
     <div class="col-md-6">
       <div class="form-group">
-        <label for="account-fn">Nombre(s)</label>
-        <input
-          class="form-control"
-          type="text"
-          id="account-fn"
-          formControlName="names"
-        />
+        <label for="account-fn" i18n>Nombre(s)</label>
+        <input class="form-control" type="text" id="account-fn" formControlName="names" />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <label for="account-ln">Apellidos</label>
-        <input
-          class="form-control"
-          type="text"
-          id="account-ln"
-          formControlName="lastNames"
-        />
+        <label for="account-ln" i18n>Apellidos</label>
+        <input class="form-control" type="text" id="account-ln" formControlName="lastNames" />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <label for="account-email">Correo electrónico</label>
-        <input
-          class="form-control"
-          type="email"
-          id="account-email"
-          formControlName="email"
-          disabled
-        />
+        <label for="account-email" i18n>Correo electrónico</label>
+        <input class="form-control" type="email" id="account-email" formControlName="email" disabled />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <label for="account-phone">Número telefónico</label>
-        <input
-          class="form-control"
-          type="text"
-          id="account-phone"
-          formControlName="phone"
-        />
+        <label for="account-phone" i18n>Número telefónico</label>
+        <input class="form-control" type="text" id="account-phone" formControlName="phone" />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <label for="account-pass">Nueva contraseña</label>
-        <input
-          class="form-control"
-          type="password"
-          id="account-pass"
-          formControlName="password"
-        />
+        <label for="account-pass" i18n>Nueva contraseña</label>
+        <input class="form-control" type="password" id="account-pass" formControlName="password" />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
-        <label for="account-confirm-pass">Confirmar contraseña</label>
-        <input
-          class="form-control"
-          type="password"
-          id="account-confirm-pass"
-          formControlName="passwordConfirmation"
-        />
+        <label for="account-confirm-pass" i18n>Confirmar contraseña</label>
+        <input class="form-control" type="password" id="account-confirm-pass" formControlName="passwordConfirmation" />
       </div>
     </div>
     <div class="col-12">
       <hr class="mt-2 mb-3" />
       <div class="d-flex flex-wrap justify-content-between align-items-center">
-        <button class="btn btn-style-1 btn-primary" type="submit">
+        <button class="btn btn-style-1 btn-primary" type="submit" i18n>
           Actualizar perfil
         </button>
       </div>

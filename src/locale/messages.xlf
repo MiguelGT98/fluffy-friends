@@ -2,6 +2,239 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{getPercentValue()}}"/>%</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/progressbar/progressbar.d.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ i18n.getAfternoonPeriod() }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ i18n.getMorningPeriod() }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="e764da0ecafbe7289543ca7bdab84940f70e9a1e" datatype="html">
         <source>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -121,7 +354,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="95d74b8ef9033e033f9f28ed0c6a650d3e002005" datatype="html">
@@ -132,7 +365,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="382d058f961aad85cb50fd747715e461bcf3ee7b" datatype="html">
@@ -141,7 +374,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a4a82d3a820ac92b808edf105b173ab155a9ac1d" datatype="html">
@@ -150,7 +383,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0c98e4cb46b988007e4a6628cb2c7270e95c73c" datatype="html">
@@ -160,14 +393,14 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0b40cdaf5f87dfb79779df051a62583daf6df0a2" datatype="html">
         <source>¿Olvidaste tu <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>contraseña?<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/login/login.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cf04f7c4d68523426a322308a940acf7a2d09b29" datatype="html">
@@ -188,7 +421,7 @@
         <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Repite contraseña<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/landing-page/registro/registro.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="97b9b919dc6ca54ff6f63ea6ec3fa370e96d046c" datatype="html">
@@ -266,34 +499,11 @@
           <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
-        <source>Amable</source>
+      <trans-unit id="4eed7644dabea34929284f20e7159b8825429b64" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ char }}"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1d7bb594d4335cc5c78d32ee2f713d43aa8f2230" datatype="html">
-        <source>Juguetón</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dfab7af8a23a50bc429158a4a3814b493e380022" datatype="html">
@@ -304,7 +514,7 @@
       </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="79b557e8d60f509e45f4e5c3178d6dbbb5b20d34" datatype="html">
@@ -317,7 +527,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-card/dog-card.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="116b2d1ea4973dfbdc8c78351c48704380d58591" datatype="html">
@@ -325,6 +535,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-tinder/components/dog-wiki/dog-wiki.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aa03add2870fd77db8bba099f4ac9d725908b36d" datatype="html">
@@ -352,62 +566,329 @@
         <source>Nombre</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7f992a8df58a79502aa99f9d04b0a223500282dc" datatype="html">
         <source>Ubicación</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="01aa5508abb4473531a18c605c1c41ae4b6074d0" datatype="html">
         <source>Matches</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="43257cb1d6045033353dccd3569ef44782ffc38b" datatype="html">
         <source>Características</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">35</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f69d7062860b7d2ff099ec2da93ebd1f0500b614" datatype="html">
         <source>Docil</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">38</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d7bb594d4335cc5c78d32ee2f713d43aa8f2230" datatype="html">
+        <source>Juguetón</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
+        <source>Amable</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0fadac2aae1bebeb48ccb3b35a8a2e082f18d02a" datatype="html">
+        <source>Atlético</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0c5763292694b498e59cf75f7926cf04fb3600a8" datatype="html">
+        <source>Mucha Energía</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7780b5f0553030b02d817c2f751b929c8189923b" datatype="html">
+        <source>Social con personas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b09bd3e70090e1b3b2a1af1b59fe2d7b57806820" datatype="html">
+        <source>Social con perros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28b61734efb866cccf209f0cd7810c5bf927473d" datatype="html">
+        <source>Cazador</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="927d82685a4e162855a5afea72c5259b7b09f998" datatype="html">
+        <source>Nervioso</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebbadefaca2b75e329d6e3c63022114e2d41cd8e" datatype="html">
+        <source>Amoroso</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a43e6465fe22096473db2a39695e46fabc4dbe90" datatype="html">
+        <source>Dormilón</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4cf74f477bdc16ae171434d4a8cf1225dd3bc6c2" datatype="html">
+        <source>Flojo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b8365af5ad9b3bb91e4ab0089990dff0320f318" datatype="html">
+        <source>Encantador</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a2dc4b08b111de7fde8adb4e6c8d59b70bd35d83" datatype="html">
+        <source>Travieso</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="00d171ea40c9cc6c494b6de3b677f7a2c3e875b4" datatype="html">
+        <source>Ruidoso</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5493d7096e4085ac4cdea0f2f7a2e4780c1fa976" datatype="html">
+        <source>Calmado</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9b4fca679ea1339e1cb35611c46a032bc7a43a4e" datatype="html">
+        <source>Hablador</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b0e611b2bfac70d1af43295307e558cbf9f48e57" datatype="html">
         <source>Descripción</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd44910f9ba22c47c17f34f842f13109b4fc53df" datatype="html">
+        <source>Raza</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3ea816e67a394e92ee31567e5d83ab5e17c942e" datatype="html">
+        <source>Doberman</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef68499d9827c99ade46ce024fb50a7da66b5c58" datatype="html">
+        <source>Labrador</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12c5e02e21fbb9391ae33cea1e69dc2fceca068f" datatype="html">
+        <source>Pastor Alemán</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8708ac05e4e5f31abe97abca6e7697b22cc6398c" datatype="html">
+        <source>Basset Hound</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="80069685c02f3ad3c5b089421a1a347f4014d0ea" datatype="html">
+        <source>Corgi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1df5708f3bf5b0cce087c0130ca9a9db32789135" datatype="html">
+        <source>Beagle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1cf40b884600eb32f5731513a87b1f54c093164" datatype="html">
+        <source>Pastor Inglés</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc1121d36e563d72e0d9922d268f5a87b68b59e0" datatype="html">
+        <source>Golden doodle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd8d7637e0d93af553754f31d135dc7f98cbc837" datatype="html">
+        <source>Poodle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adc6dc478b65e9507ef0285cb84cdd5c84b7165f" datatype="html">
+        <source>Chihuahua</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="358a1336ff36bcb3f5161bd1357bcc057e79615e" datatype="html">
+        <source>Husky</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ad98b32fa6deafe33a3ddb6d67f8855a2d32e00" datatype="html">
+        <source>Akita</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a774311eedf60a6e5ded0219f119f773f9aaee04" datatype="html">
+        <source>Shiba Inu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae3f64d873a99acaeeeb33c7c10037eea0d4f931" datatype="html">
+        <source>Shih Tzu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3fbdc60e3b0befe92a67ee4cb172a29878fdb8e4" datatype="html">
+        <source>Dálmata</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4add9b80786bb2a27e58d5faf532bcad887923a5" datatype="html">
+        <source>Pug</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f46ccf06cf1647a6f028ff42f59c12a11bc8bc0c" datatype="html">
+        <source>Bulldog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fcd4ff6ce5eeaecd92618e76e3d0d6f323d07024" datatype="html">
+        <source>Yorkshire terrier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49535bcac264ac7967bd1e0dc1406bb9d92cd392" datatype="html">
+        <source>Xoloitzcuintle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="077bb6becf4ecab4f9f491b08911e063f8277321" datatype="html">
+        <source>Ninguna de las anteriores</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
+          <context context-type="linenumber">93</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e577a1fd728ee2e169c8e209c70a534f2982c71b" datatype="html">
@@ -416,7 +897,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8b993d012f192b08d28dbd2a11e2f72948ceec6d" datatype="html">
@@ -425,11 +906,11 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">100</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1ace110c0d0de821ea86911ab1fc1b1c693d638f" datatype="html">
@@ -438,7 +919,86 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab17124d927da9639a3395b620b45a7245174f0a" datatype="html">
+        <source>Se unió en </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/navigation/navigation.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6c0c9247f360514a4ee85e37116696ba3bea32a8" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Ajustes de perfil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/navigation/navigation.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eced028d06b915c83f352ea2c7535f91a3d97e1a" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Mis mensajes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/navigation/navigation.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45115582e5474afa551c6c2edffd5512f32f53de" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Cerrar sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/navigation/navigation.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90d25d6a2b339b7595486907bc3275166e51bff8" datatype="html">
+        <source>Nombre(s)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7cc7d4e5b5cae80ca5d7c2d9227dc7fad54ce195" datatype="html">
+        <source>Apellidos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9e588741024086a4b24d5db5da4f5c540a07f30" datatype="html">
+        <source>Correo electrónico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8bc6e26a6dd95cd66c25350c4e5c5b41a4cb26c8" datatype="html">
+        <source>Número telefónico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6cf2c176ccde9d924c4cb8651c12e09b6be9008a" datatype="html">
+        <source>Nueva contraseña</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
           <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5ce6971c7cec0275fb6d0f7aee70ba8472dd05d" datatype="html">
+        <source>Confirmar contraseña</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ebca23091c2770d19d0878f609f4a1987f222d0" datatype="html">
+        <source>
+          Actualizar perfil
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
     </body>
