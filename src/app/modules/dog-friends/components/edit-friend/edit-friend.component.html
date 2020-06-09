@@ -1,12 +1,6 @@
 <div class="friend-wrapper">
-  <div
-    id="success"
-    class="modal fade bd-example-modal-sm"
-    tabindex="-1"
-    role="dialog"
-    aria-labelledby="mySmallModalLabel"
-    aria-hidden="true"
-  >
+  <div id="success" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
+    aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
         <div class="modal-header bg-success">
@@ -18,14 +12,8 @@
       </div>
     </div>
   </div>
-  <div
-    id="error"
-    class="modal fade bd-example-modal-sm"
-    tabindex="-1"
-    role="dialog"
-    aria-labelledby="mySmallModalLabel"
-    aria-hidden="true"
-  >
+  <div id="error" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
         <div class="modal-header bg-danger">
@@ -37,79 +25,74 @@
       </div>
     </div>
   </div>
-  <app-dog-card
-    *ngIf="friend$ as friend"
-    name="{{ friend.name }}"
-    url="{{ friend.image }}"
-    [characteristics]="friend.characteristics"
-  ></app-dog-card>
-  <form
-    [formGroup]="friendForm"
-    (ngSubmit)="onSubmit(friendForm.value)"
-    *ngIf="friend$ as friend"
-  >
+  <app-dog-card *ngIf="friend$ as friend" name="{{ friend.name }}" url="{{ friend.image }}"
+    [characteristics]="friend.characteristics"></app-dog-card>
+  <form [formGroup]="friendForm" (ngSubmit)="onSubmit(friendForm.value)" *ngIf="friend$ as friend">
     <div class="form-group">
       <label for="name" i18n>Nombre</label>
-      <input
-        type="text"
-        class="form-control"
-        id="name"
-        name="name"
-        placeholder="Ingresa nombre"
-        formControlName="name"
-      />
+      <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa nombre"
+        formControlName="name" />
     </div>
     <div class="form-group">
       <label for="name" i18n>Características</label>
-      <select
-        class="form-control"
-        id="characteristics"
-        name="characteristics"
-        formControlName="characteristics"
-        multiple
-      >
+      <select class="form-control" id="characteristics" name="characteristics" formControlName="characteristics"
+        multiple>
         <option i18n>Docil</option>
         <option i18n>Juguetón</option>
         <option i18n>Amable</option>
+        <option i18n>Atlético</option>
+        <option i18n>Mucha Energía</option>
+        <option i18n>Social con personas</option>
+        <option i18n>Social con perros</option>
+        <option i18n>Cazador</option>
+        <option i18n>Nervioso</option>
+        <option i18n>Amoroso</option>
+        <option i18n>Dormilón</option>
+        <option i18n>Flojo</option>
+        <option i18n>Encantador</option>
+        <option i18n>Travieso</option>
+        <option i18n>Ruidoso</option>
+        <option i18n>Calmado</option>
+        <option i18n>Hablador</option>
       </select>
     </div>
     <div class="form-group">
-      <label for="images">Imagen</label>
-      <input
-        type="file"
-        class="form-control-file"
-        id="image"
-        name="image"
-        (change)="onFileChange($event)"
-        multiple="false"
-        required
-      />
+      <label for="images" i18n>Imagen</label>
+      <input type="file" class="form-control-file" id="image" name="image" (change)="onFileChange($event)"
+        multiple="false" required />
     </div>
     <div class="form-group">
       <div id="preview-files"></div>
     </div>
     <div class="form-group">
       <label for="description" i18n>Descripción</label>
-      <textarea
-        class="form-control"
-        id="description"
-        name="description"
-        formControlName="description"
-        rows="4"
-      ></textarea>
+      <textarea class="form-control" id="description" name="description" formControlName="description"
+        rows="4"></textarea>
     </div>
     <div class="form-group">
-      <label for="name">Raza</label>
-      <select
-        class="form-control selectpicker"
-        id="breed"
-        name="breed"
-        formControlName="breed"
-        required
-      >
-        <option>Doberman</option>
-        <option>Labrador</option>
-        <option>Pastor Alemán</option>
+      <label for="name" i18n>Raza</label>
+      <select class="form-control selectpicker" id="breed" name="breed" formControlName="breed" required>
+        <option i18n>Doberman</option>
+        <option i18n>Labrador</option>
+        <option i18n>Pastor Alemán</option>
+        <option i18n>Basset Hound</option>
+        <option i18n>Corgi</option>
+        <option i18n>Beagle</option>
+        <option i18n>Golden Retriever</option>
+        <option i18n>Pastor Inglés</option>
+        <option i18n>Golden doodle</option>
+        <option i18n>Poodle</option>
+        <option i18n>Chihuahua</option>
+        <option i18n>Husky</option>
+        <option i18n>Akita</option>
+        <option i18n>Shiba Inu</option>
+        <option i18n>Shih Tzu</option>
+        <option i18n>Dálmata</option>
+        <option i18n>Pug</option>
+        <option i18n>Bulldog</option>
+        <option i18n>Yorkshire terrier</option>
+        <option i18n>Xoloitzcuintle</option>
+        <option i18n>Ninguna de las anteriores</option>
       </select>
     </div>
     <button type="submit" class="btn btn-primary mb-2" i18n>

@@ -540,6 +540,10 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">79</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="aa03add2870fd77db8bba099f4ac9d725908b36d" datatype="html">
         <source>
@@ -574,7 +578,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7f992a8df58a79502aa99f9d04b0a223500282dc" datatype="html">
@@ -599,7 +603,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f69d7062860b7d2ff099ec2da93ebd1f0500b614" datatype="html">
@@ -610,7 +614,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1d7bb594d4335cc5c78d32ee2f713d43aa8f2230" datatype="html">
@@ -621,7 +625,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c1e50e571f7fc6db4a7aa0b86513b53445aa6089" datatype="html">
@@ -632,7 +636,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0fadac2aae1bebeb48ccb3b35a8a2e082f18d02a" datatype="html">
@@ -641,12 +645,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">41</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="0c5763292694b498e59cf75f7926cf04fb3600a8" datatype="html">
         <source>Mucha Energía</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7780b5f0553030b02d817c2f751b929c8189923b" datatype="html">
@@ -655,12 +667,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">43</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="b09bd3e70090e1b3b2a1af1b59fe2d7b57806820" datatype="html">
         <source>Social con perros</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="28b61734efb866cccf209f0cd7810c5bf927473d" datatype="html">
@@ -669,12 +689,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">45</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="927d82685a4e162855a5afea72c5259b7b09f998" datatype="html">
         <source>Nervioso</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ebbadefaca2b75e329d6e3c63022114e2d41cd8e" datatype="html">
@@ -683,12 +711,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">47</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="a43e6465fe22096473db2a39695e46fabc4dbe90" datatype="html">
         <source>Dormilón</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4cf74f477bdc16ae171434d4a8cf1225dd3bc6c2" datatype="html">
@@ -697,12 +733,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">49</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7b8365af5ad9b3bb91e4ab0089990dff0320f318" datatype="html">
         <source>Encantador</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a2dc4b08b111de7fde8adb4e6c8d59b70bd35d83" datatype="html">
@@ -711,12 +755,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">51</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="00d171ea40c9cc6c494b6de3b677f7a2c3e875b4" datatype="html">
         <source>Ruidoso</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5493d7096e4085ac4cdea0f2f7a2e4780c1fa976" datatype="html">
@@ -725,12 +777,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">53</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="9b4fca679ea1339e1cb35611c46a032bc7a43a4e" datatype="html">
         <source>Hablador</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b0e611b2bfac70d1af43295307e558cbf9f48e57" datatype="html">
@@ -741,7 +801,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">92</context>
+          <context context-type="linenumber">68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cd44910f9ba22c47c17f34f842f13109b4fc53df" datatype="html">
@@ -750,12 +810,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">71</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="b3ea816e67a394e92ee31567e5d83ab5e17c942e" datatype="html">
         <source>Doberman</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ef68499d9827c99ade46ce024fb50a7da66b5c58" datatype="html">
@@ -764,12 +832,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">74</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="12c5e02e21fbb9391ae33cea1e69dc2fceca068f" datatype="html">
         <source>Pastor Alemán</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8708ac05e4e5f31abe97abca6e7697b22cc6398c" datatype="html">
@@ -778,12 +854,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">76</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="80069685c02f3ad3c5b089421a1a347f4014d0ea" datatype="html">
         <source>Corgi</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1df5708f3bf5b0cce087c0130ca9a9db32789135" datatype="html">
@@ -792,12 +876,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">78</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="a1cf40b884600eb32f5731513a87b1f54c093164" datatype="html">
         <source>Pastor Inglés</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="bc1121d36e563d72e0d9922d268f5a87b68b59e0" datatype="html">
@@ -806,12 +898,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">81</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="bd8d7637e0d93af553754f31d135dc7f98cbc837" datatype="html">
         <source>Poodle</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="adc6dc478b65e9507ef0285cb84cdd5c84b7165f" datatype="html">
@@ -820,12 +920,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">83</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="358a1336ff36bcb3f5161bd1357bcc057e79615e" datatype="html">
         <source>Husky</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5ad98b32fa6deafe33a3ddb6d67f8855a2d32e00" datatype="html">
@@ -834,12 +942,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">85</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="a774311eedf60a6e5ded0219f119f773f9aaee04" datatype="html">
         <source>Shiba Inu</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ae3f64d873a99acaeeeb33c7c10037eea0d4f931" datatype="html">
@@ -848,12 +964,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3fbdc60e3b0befe92a67ee4cb172a29878fdb8e4" datatype="html">
         <source>Dálmata</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4add9b80786bb2a27e58d5faf532bcad887923a5" datatype="html">
@@ -862,12 +986,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">89</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="f46ccf06cf1647a6f028ff42f59c12a11bc8bc0c" datatype="html">
         <source>Bulldog</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">92</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fcd4ff6ce5eeaecd92618e76e3d0d6f323d07024" datatype="html">
@@ -876,6 +1008,10 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">91</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="49535bcac264ac7967bd1e0dc1406bb9d92cd392" datatype="html">
         <source>Xoloitzcuintle</source>
@@ -883,12 +1019,20 @@
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">92</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="077bb6becf4ecab4f9f491b08911e063f8277321" datatype="html">
         <source>Ninguna de las anteriores</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/new-friend/new-friend.component.html</context>
           <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e577a1fd728ee2e169c8e209c70a534f2982c71b" datatype="html">
@@ -910,7 +1054,14 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">118</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="07464a612b0c044a93bd1f851ce3bda8a9898b66" datatype="html">
+        <source>Imagen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1ace110c0d0de821ea86911ab1fc1b1c693d638f" datatype="html">
@@ -919,7 +1070,7 @@
     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
-          <context context-type="linenumber">115</context>
+          <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ab17124d927da9639a3395b620b45a7245174f0a" datatype="html">
