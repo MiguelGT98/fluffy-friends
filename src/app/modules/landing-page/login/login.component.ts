@@ -5,6 +5,8 @@ import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { AuthLocalStorageService } from 'src/app/auth/auth-local-storage.service';
 
+declare var $: any;
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -33,8 +35,9 @@ export class LoginComponent implements OnInit {
         this.location.replaceState('/');
         this.router.navigate(['/app']);
       },
-      (errors) => {
-        console.error(errors);
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
       }
     );
     this.loginForm.reset();

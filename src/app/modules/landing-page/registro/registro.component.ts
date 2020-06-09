@@ -5,6 +5,8 @@ import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { AuthLocalStorageService } from 'src/app/auth/auth-local-storage.service';
 
+declare var $: any;
+
 @Component({
   selector: 'app-registro',
   templateUrl: './registro.component.html',
@@ -36,8 +38,9 @@ export class RegistroComponent implements OnInit {
         this.location.replaceState('/');
         this.router.navigate(['/app']);
       },
-      (errors) => {
-        console.error(errors);
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
       }
     );
   }
