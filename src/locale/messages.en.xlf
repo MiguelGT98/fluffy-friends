@@ -1127,7 +1127,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="6cf2c176ccde9d924c4cb8651c12e09b6be9008a" datatype="html">
-        <source>Nueva contraseña</source>        
+        <source>Nueva contraseña</source>
         <target>New password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
@@ -1135,7 +1135,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="e5ce6971c7cec0275fb6d0f7aee70ba8472dd05d" datatype="html">
-        <source>Confirmar contraseña</source>        
+        <source>Confirmar contraseña</source>
         <target>Confirm password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/profile/details/details.component.html</context>
@@ -1145,7 +1145,7 @@
       <trans-unit id="7ebca23091c2770d19d0878f609f4a1987f222d0" datatype="html">
         <source>
           Actualizar perfil
-        </source>        
+        </source>
         <target>
           Update profile
         </target>
@@ -1184,6 +1184,23 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/dog-friends/components/edit-friend/edit-friend.component.html</context>
           <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="41ada76252535a632219b680c25cebe9ccb3e16b" datatype="html">
+        <source>Anterior</source>
+        <target>Before</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ac5848d3ee8b22b4f286fbd661a0649e42fe5ca" datatype="html">
+        <source>Siguiente</source>
+        <target>Next</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/dog-friends/components/dog-friends/dog-friends.component.html</context>
+          <context context-type="linenumber">47</context>
         </context-group>
       </trans-unit>
 
