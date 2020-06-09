@@ -7,14 +7,16 @@
         <th scope="col" i18n>Matches</th>
       </tr>
     </thead>
-    <tbody *ngFor="let friend of friends">
+    <tbody *ngFor="let friend of friends$">
       <tr>
         <td>
-          <img src="{{ friend.url }}" alt="{{ friend.alt }}" /><a
-            routerLink="edit/{{ friend.id }}">{{ friend.name }}</a>
+          <img src="{{ friend.image }}" /><a
+            routerLink="edit/{{ friend._id }}"
+            >{{ friend.name }}</a
+          >
         </td>
         <td>{{ friend.location }}</td>
-        <td>{{ friend.matches }}</td>
+        <td>{{ friend.likes }}</td>
       </tr>
     </tbody>
   </table>

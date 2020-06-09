@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { FriendsService } from '../../services/friends.service';
 
@@ -9,6 +9,8 @@ import { FriendsService } from '../../services/friends.service';
 })
 export class NewFriendComponent implements OnInit {
   friendForm;
+  image;
+  @ViewChild('fileInput') fileInput;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -16,28 +18,33 @@ export class NewFriendComponent implements OnInit {
   ) {
     this.friendForm = this.formBuilder.group({
       name: '',
-      url:
-        'https://i.pinimg.com/originals/93/f5/d0/93f5d04e832b57d029dea6edcbd971ff.jpg',
-      alt: 'Perro del meme',
-      characteristics: [''],
+      characteristics: [],
       description: '',
       location: 'CDMX, México',
-      matches: 4,
+      breed: '',
+      image: null,
     });
   }
 
   onSubmit(friend) {
-    this.friendService
-    .addFriend(friend)
-    .subscribe(
-      (success)=>{
+    this.friendService.addFriend(friend).subscribe(
+      (success) => {
         console.log(success);
       },
-      (error) => {}
+      (error) => {
+        console.error(error);
+      }
     );
-    this.friendForm.reset();
+  }
 
-    console.log('Your friend has been added', friend);
+  onFileChange(event) {
+    if (event.target.files.length > 0) {
+      const file = event.target.files[0];
+
+      this.friendForm.patchValue({
+        image: file,
+      });
+    }
   }
 
   ngOnInit(): void {}

@@ -49,6 +49,8 @@ import {
 export class DogCardComponent implements OnInit {
   @Input() url: string;
   @Input() name: string;
+  @Input() characteristics: string[];
+
   show = false;
   show2 = false;
   get likeDogo() {
@@ -66,5 +68,7 @@ export class DogCardComponent implements OnInit {
   }
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log(this.url, this.name, this.characteristics);
+  }
 }

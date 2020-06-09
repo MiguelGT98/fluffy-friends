@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Friend } from '../../models/friend';
 import { FriendsService } from '../../services/friends.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-dog-friends',
@@ -8,7 +9,7 @@ import { FriendsService } from '../../services/friends.service';
   styleUrls: ['./dog-friends.component.scss'],
 })
 export class DogFriendsComponent implements OnInit {
-  friends: Array<Friend> = [];
+  friends$: Observable<Array<Friend>>;
   constructor(public friendsService: FriendsService) {}
 
   ngOnInit(): void {
@@ -16,8 +17,13 @@ export class DogFriendsComponent implements OnInit {
   }
 
   getFriends() {
-
-
-   // this.friends = this.friendsService.getFriends();
+    this.friendsService.getMyFriends().subscribe(
+      ({ friends }) => {
+        this.friends$ = friends;
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
   }
 }

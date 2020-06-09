@@ -1,18 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-
+import { FriendsService } from '../dog-friends/services/friends.service';
+import { Observable } from 'rxjs';
+import { Friend } from '../dog-friends/models/friend';
 
 @Component({
   selector: 'app-dog-tinder',
   templateUrl: './dog-tinder.component.html',
-  styleUrls: ['./dog-tinder.component.scss']
-
-
+  styleUrls: ['./dog-tinder.component.scss'],
 })
 export class DogTinderComponent implements OnInit {
+  friends$: Observable<Array<Friend>>;
 
-  constructor() { }
+  constructor(private friendsService: FriendsService) {}
 
   ngOnInit(): void {
-  }
+    this.friendsService.getFriends().subscribe(
+      ({ friends }) => {
+        this.friends$ = friends;
 
+        console.log(this.friends$);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
+  }
 }

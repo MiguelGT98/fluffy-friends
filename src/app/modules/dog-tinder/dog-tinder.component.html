@@ -1,5 +1,11 @@
 <app-navbar></app-navbar>
 <div class="main">
-  <app-dog-card></app-dog-card>
-  <app-dog-wiki></app-dog-wiki>
+  <div *ngFor="let friend of friends$">
+    <app-dog-card
+      name="{{ friend.name }}"
+      url="{{ friend.image }}"
+      [characteristics]="friend.characteristics"
+    ></app-dog-card>
+    <app-dog-wiki></app-dog-wiki>
+  </div>
 </div>

@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Friend } from '../../models/friend';
 import { FriendsService } from '../../services/friends.service';
 import { FormBuilder } from '@angular/forms';
+import { Observable, of } from 'rxjs';
 
 @Component({
   selector: 'app-edit-friend',
@@ -12,7 +13,7 @@ import { FormBuilder } from '@angular/forms';
 })
 export class EditFriendComponent implements OnInit {
   id = '';
-  friend: Friend;
+  friend$: Observable<Friend>;
   friendForm;
 
   constructor(
@@ -24,27 +25,45 @@ export class EditFriendComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
       this.id = params.id;
-      //this.friend = this.friendService.getFriend(this.id);
-    });
-
-    console.log(this.friend);
-
-    this.friendForm = this.formBuilder.group({
-      id: this.friend.id,
-      name: this.friend.name,
-      url: this.friend.url,
-      alt: '',
-      characteristics: this.friend.characteristics,
-      description: this.friend.description,
-      location: this.friend.location,
-      matches: this.friend.matches,
+      this.getFriendData(this.id);
     });
   }
 
-  onSubmit(friend) {
-   // this.friendService.updateFriend(friend);
-    this.friendForm.reset();
+  getFriendData(id: string) {
+    this.friendService.getFriend(id).subscribe(
+      (success) => {
+        this.friend$ = success;
 
-    console.log('Your friend has been updated', friend);
+        this.friendForm = this.formBuilder.group({
+          ...this.friend$,
+        });
+
+        console.log(this.friend$);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
+  }
+
+  onFileChange(event) {
+    if (event.target.files.length > 0) {
+      const file = event.target.files[0];
+
+      this.friendForm.patchValue({
+        image: file,
+      });
+    }
+  }
+
+  onSubmit(friend) {
+    this.friendService.updateFriend(friend).subscribe(
+      (success) => {
+        console.log(success);
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
   }
 }

@@ -1,30 +1,78 @@
 <div class="friend-wrapper">
-  <app-dog-card name="{{ friend.name }}" url="{{ friend.url }}"></app-dog-card>
-  <form [formGroup]="friendForm" (ngSubmit)="onSubmit(friendForm.value)">
+  <app-dog-card
+    *ngIf="friend$ as friend"
+    name="{{ friend.name }}"
+    url="{{ friend.image }}"
+    [characteristics]="friend.characteristics"
+  ></app-dog-card>
+  <form
+    [formGroup]="friendForm"
+    (ngSubmit)="onSubmit(friendForm.value)"
+    *ngIf="friend$ as friend"
+  >
     <div class="form-group">
       <label for="name" i18n>Nombre</label>
-      <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa nombre"
-        value="{{ friend.name }}" formControlName="name" />
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        name="name"
+        placeholder="Ingresa nombre"
+        formControlName="name"
+      />
     </div>
     <div class="form-group">
       <label for="name" i18n>Características</label>
-      <select class="form-control" id="characteristics" name="characteristics" formControlName="characteristics">
+      <select
+        class="form-control"
+        id="characteristics"
+        name="characteristics"
+        formControlName="characteristics"
+        multiple
+      >
         <option i18n>Docil</option>
         <option i18n>Juguetón</option>
         <option i18n>Amable</option>
       </select>
     </div>
     <div class="form-group">
-      <label for="images">Images</label>
-      <input type="file" class="form-control-file" id="images" name="images" />
+      <label for="images">Imagen</label>
+      <input
+        type="file"
+        class="form-control-file"
+        id="image"
+        name="image"
+        (change)="onFileChange($event)"
+        multiple="false"
+        required
+      />
     </div>
     <div class="form-group">
       <div id="preview-files"></div>
     </div>
     <div class="form-group">
       <label for="description" i18n>Descripción</label>
-      <textarea class="form-control" id="description" name="description" formControlName="description" rows="4"
-        value="{{ friend.description }}"></textarea>
+      <textarea
+        class="form-control"
+        id="description"
+        name="description"
+        formControlName="description"
+        rows="4"
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <label for="name" i18n>Raza</label>
+      <select
+        class="form-control selectpicker"
+        id="breed"
+        name="breed"
+        formControlName="breed"
+        required
+      >
+        <option>Doberman</option>
+        <option>Labrador</option>
+        <option>Pastor Alemán</option>
+      </select>
     </div>
     <button type="submit" class="btn btn-primary mb-2" i18n>
       Actualizar datos

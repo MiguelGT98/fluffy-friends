@@ -2,22 +2,26 @@ export class Friend {
   constructor(
     public id?: string,
     public name?: string,
-    public url?: string,
-    public characteristics?: Array<string>,
+    public image?: string,
+    public characteristics?: string[],
     public description?: string,
     public location?: string,
-    public matches?: number
+    public likes?: number,
+    public dislikes?: number,
+    public owner?: string
   ) {}
 
   public static fromJSON(friend: any): Friend {
     return new Friend(
       friend.id,
       friend.name,
-      friend.url,
+      friend.image,
       friend.characteristics,
       friend.description,
       friend.location,
-      friend.matches
+      friend.matches,
+      friend.dislikes,
+      friend.owner
     );
   }
 }
