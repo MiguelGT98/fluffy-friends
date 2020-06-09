@@ -24,7 +24,7 @@ export class EditFriendComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
       this.id = params.id;
-      this.friend = this.friendService.getFriend(this.id);
+      //this.friend = this.friendService.getFriend(this.id);
     });
 
     console.log(this.friend);
@@ -42,7 +42,7 @@ export class EditFriendComponent implements OnInit {
   }
 
   onSubmit(friend) {
-    this.friendService.updateFriend(friend);
+   // this.friendService.updateFriend(friend);
     this.friendForm.reset();
 
     console.log('Your friend has been updated', friend);

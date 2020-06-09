@@ -27,7 +27,14 @@ export class NewFriendComponent implements OnInit {
   }
 
   onSubmit(friend) {
-    this.friendService.addFriend(friend);
+    this.friendService
+    .addFriend(friend)
+    .subscribe(
+      (success)=>{
+        console.log(success);
+      },
+      (error) => {}
+    );
     this.friendForm.reset();
 
     console.log('Your friend has been added', friend);

@@ -16,6 +16,8 @@ export class DogFriendsComponent implements OnInit {
   }
 
   getFriends() {
-    this.friends = this.friendsService.getFriends();
+
+
+   // this.friends = this.friendsService.getFriends();
   }
 }
