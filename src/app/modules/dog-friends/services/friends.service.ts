@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { LOCALE_ID, Injectable, Inject } from '@angular/core';
 import { Friend } from '../models/friend';
 
 import {
@@ -21,7 +21,8 @@ export class FriendsService {
 
   constructor(
     private http: HttpClient,
-    private authLocal: AuthLocalStorageService
+    private authLocal: AuthLocalStorageService,
+    @Inject(LOCALE_ID) private locale: string
   ) {}
 
   public getMyFriends(): Observable<any> {
@@ -32,6 +33,7 @@ export class FriendsService {
         headers: new HttpHeaders({
           'Content-Type': 'application/json',
           Authorization: `Bearer ${userToken}`,
+          'Accept-Language': this.locale,
         }),
       })
       .pipe(retry(3), catchError(this.handleError));
@@ -45,6 +47,7 @@ export class FriendsService {
         headers: new HttpHeaders({
           'Content-Type': 'application/json',
           Authorization: `Bearer ${userToken}`,
+          'Accept-Language': this.locale,
         }),
       })
       .pipe(retry(3), catchError(this.handleError));
@@ -56,19 +59,26 @@ export class FriendsService {
     const formData = new FormData();
     formData.append('image', friend.image);
     for (let key in friend) {
-      if (!(key === 'image')) formData.append(key, friend[key]);
+      if (key === 'characteristics') {
+        formData.append(
+          'characteristics',
+          JSON.stringify(friend.characteristics)
+        );
+      } else if (!(key === 'image')) formData.append(key, friend[key]);
     }
 
     return this.http
       .patch(`${this.endpoint}friends/${friend._id}`, formData, {
         headers: new HttpHeaders({
           Authorization: `Bearer ${userToken}`,
+          'Accept-Language': this.locale,
         }),
       })
       .pipe(retry(3), catchError(this.handleError));
   }
 
   private handleError(error: HttpErrorResponse) {
+    console.error(error);
     return throwError(error);
   }
 
@@ -78,13 +88,19 @@ export class FriendsService {
     const formData = new FormData();
     formData.append('image', friend.image);
     for (let key in friend) {
-      if (!(key === 'image')) formData.append(key, friend[key]);
+      if (key === 'characteristics') {
+        formData.append(
+          'characteristics',
+          JSON.stringify(friend.characteristics)
+        );
+      } else if (!(key === 'image')) formData.append(key, friend[key]);
     }
 
     return this.http
       .post(`${this.endpoint}friends`, formData, {
         headers: new HttpHeaders({
           Authorization: `Bearer ${userToken}`,
+          'Accept-Language': this.locale,
         }),
       })
       .pipe(retry(3), catchError(this.handleError));
@@ -97,6 +113,7 @@ export class FriendsService {
         headers: new HttpHeaders({
           'Content-Type': 'application/json',
           Authorization: `Bearer ${userToken}`,
+          'Accept-Language': this.locale,
         }),
       })
       .pipe(retry(3), catchError(this.handleError));
