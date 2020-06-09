@@ -12,6 +12,9 @@ declare var $: any;
 })
 export class DogFriendsComponent implements OnInit {
   friends$: Observable<Array<Friend>>;
+  currentPage: number = 0;
+  maxPage: number;
+
   constructor(public friendsService: FriendsService) {}
 
   ngOnInit(): void {
@@ -19,9 +22,42 @@ export class DogFriendsComponent implements OnInit {
   }
 
   getFriends() {
-    this.friendsService.getMyFriends().subscribe(
-      ({ friends }) => {
+    this.friendsService.getMyFriends(this.currentPage).subscribe(
+      ({ friends, maxPage }) => {
         this.friends$ = friends;
+        this.maxPage = maxPage;
+      },
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
+      }
+    );
+  }
+
+  public previousPage() {
+    if (this.currentPage === 0) return;
+    this.currentPage -= 1;
+
+    this.friendsService.getMyFriends(this.currentPage).subscribe(
+      ({ friends, maxPage }) => {
+        this.friends$ = friends;
+        this.maxPage = maxPage;
+      },
+      ({ error }) => {
+        $('#error .modal-body').text(error.message);
+        $('#error').modal('toggle');
+      }
+    );
+  }
+
+  public nextPage() {
+    if (this.currentPage === this.maxPage) return;
+    this.currentPage += 1;
+
+    this.friendsService.getMyFriends(this.currentPage).subscribe(
+      ({ friends, maxPage }) => {
+        this.friends$ = friends;
+        this.maxPage = maxPage;
       },
       ({ error }) => {
         $('#error .modal-body').text(error.message);

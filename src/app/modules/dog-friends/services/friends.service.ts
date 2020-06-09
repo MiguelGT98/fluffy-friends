@@ -25,11 +25,11 @@ export class FriendsService {
     @Inject(LOCALE_ID) private locale: string
   ) {}
 
-  public getMyFriends(): Observable<any> {
+  public getMyFriends(page: number): Observable<any> {
     const userToken = this.authLocal.getCurrentUser();
 
     return this.http
-      .get(`${this.endpoint}friends/self`, {
+      .get(`${this.endpoint}friends/self?page=${page}&limit=2&orderBy=name`, {
         headers: new HttpHeaders({
           'Content-Type': 'application/json',
           Authorization: `Bearer ${userToken}`,
