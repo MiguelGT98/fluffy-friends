@@ -2,7 +2,8 @@
 <div class="main">
   <ngb-carousel
     *ngIf="friends$ as friends"
-    [showNavigationArrows]="showNavigationArrows"
+    [showNavigationArrows]="false"
+    [showNavigationIndicators]="showNavigationIndicators"
   >
     <ng-template ngbSlide *ngFor="let friend of friends$">
       <div class="my-slide">

@@ -12,6 +12,10 @@
   }
 }
 
+::ng-deep .carousel-indicators li {
+  background-color: black !important;
+}
+
 @include cellphone {
   .main {
     display: block;

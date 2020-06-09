@@ -17,7 +17,7 @@ deckGoSlide(window);
 })
 export class DogTinderComponent implements OnInit {
   friends$: Observable<Array<Friend>>;
-  showNavigationArrows: boolean = true;
+  showNavigationIndicators: boolean = true;
 
   constructor(private friendsService: FriendsService) {}
 
