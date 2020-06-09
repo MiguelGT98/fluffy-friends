@@ -1,8 +1,16 @@
 <div class="my-profile-wrapper">
   <div class="container mt-5">
     <div class="row">
-      <app-navigation class="col-lg-4 pb-5"></app-navigation>
-      <app-details class="col-lg-8 pb-5"></app-details>
+      <app-navigation
+        class="col-lg-4 pb-5"
+        [user]="user$"
+        *ngIf="user$"
+      ></app-navigation>
+      <app-details
+        class="col-lg-8 pb-5"
+        [user]="user$"
+        *ngIf="user$"
+      ></app-details>
     </div>
   </div>
 </div>

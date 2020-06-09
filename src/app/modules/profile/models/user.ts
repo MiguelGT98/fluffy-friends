@@ -5,7 +5,9 @@ export class User {
     public email?: string,
     public avatar?: string,
     public names?: string,
-    public lastNames?: string
+    public lastNames?: string,
+    public created_at?: Date,
+    public phone?: string
   ) {}
 
   public static fromJSON(user: any): User {
@@ -15,7 +17,9 @@ export class User {
       user.email,
       user.avatar,
       user.names,
-      user.lastNames
+      user.lastNames,
+      new Date(user.created_at),
+      user.phone
     );
   }
 }

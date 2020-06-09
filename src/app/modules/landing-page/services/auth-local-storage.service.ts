@@ -7,7 +7,7 @@ import { LOCAL_STORAGE, StorageService } from 'ngx-webstorage-service';
 export class AuthLocalStorageService {
   constructor(@Inject(LOCAL_STORAGE) private storage: StorageService) {}
 
-  public getCurrentUser(): object {
+  public getCurrentUser(): string {
     const user = this.storage.get('user') || null;
 
     return user;

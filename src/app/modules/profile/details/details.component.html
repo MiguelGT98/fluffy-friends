@@ -1,5 +1,9 @@
 <div>
-  <form class="row">
+  <form
+    class="row"
+    [formGroup]="profileForm"
+    (ngSubmit)="onSubmit(profileForm.value)"
+  >
     <div class="col-md-6">
       <div class="form-group">
         <label for="account-fn">Nombre(s)</label>
@@ -7,8 +11,7 @@
           class="form-control"
           type="text"
           id="account-fn"
-          value="Miguel"
-          required=""
+          formControlName="names"
         />
       </div>
     </div>
@@ -19,8 +22,7 @@
           class="form-control"
           type="text"
           id="account-ln"
-          value="Gallardo"
-          required=""
+          formControlName="lastNames"
         />
       </div>
     </div>
@@ -31,8 +33,8 @@
           class="form-control"
           type="email"
           id="account-email"
-          value="miguel.gallardo@ejemplo.com"
-          disabled=""
+          formControlName="email"
+          disabled
         />
       </div>
     </div>
@@ -43,36 +45,36 @@
           class="form-control"
           type="text"
           id="account-phone"
-          value="55 5555 5555"
-          required=""
+          formControlName="phone"
         />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
         <label for="account-pass">Nueva contraseña</label>
-        <input class="form-control" type="password" id="account-pass" />
+        <input
+          class="form-control"
+          type="password"
+          id="account-pass"
+          formControlName="password"
+        />
       </div>
     </div>
     <div class="col-md-6">
       <div class="form-group">
         <label for="account-confirm-pass">Confirmar contraseña</label>
-        <input class="form-control" type="password" id="account-confirm-pass" />
+        <input
+          class="form-control"
+          type="password"
+          id="account-confirm-pass"
+          formControlName="passwordConfirmation"
+        />
       </div>
     </div>
     <div class="col-12">
       <hr class="mt-2 mb-3" />
       <div class="d-flex flex-wrap justify-content-between align-items-center">
-        <button
-          class="btn btn-style-1 btn-primary"
-          type="button"
-          data-toast=""
-          data-toast-position="topRight"
-          data-toast-type="success"
-          data-toast-icon="fe-icon-check-circle"
-          data-toast-title="Completado"
-          data-toast-message="Your profile updated successfuly."
-        >
+        <button class="btn btn-style-1 btn-primary" type="submit">
           Actualizar perfil
         </button>
       </div>
